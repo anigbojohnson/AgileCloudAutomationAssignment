@@ -1,0 +1,418 @@
+
+package retake
+
+import com.google.gson.Gson;
+
+import com.mongodb.client.model.Aggregates
+import com.mongodb.client.model.Accumulators
+import com.mongodb.MongoClientSettings
+import com.mongodb.ServerAddress
+import com.mongodb.client.MongoClient
+import com.mongodb.client.MongoClients
+import com.mongodb.client.MongoCollection
+import com.mongodb.client.MongoCursor
+import com.mongodb.client.MongoDatabase
+import com.mongodb.client.model.Projections
+import com.mongodb.client.model.Filters
+import com.mongodb.client.model.Indexes;
+import org.jfree.chart.ChartFactory
+import org.jfree.chart.ChartPanel
+import org.jfree.data.category.DefaultCategoryDataset
+
+import org.bson.Document
+import org.bson.conversions.Bson
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+import com.mongodb.client.model.Sorts
+
+
+
+class ExcerciseThreePartA {
+	def static final connectionString = "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/ReatakeAgileCloudAuthomation?retryWrites=true&w=majority"
+	
+	
+	static void main(String[] args) {
+
+		// Connect to the MongoDB server using the connection string
+		def mongoClient = MongoClients.create(connectionString)
+
+		// Access a specific database
+		def database = mongoClient.getDatabase("ReatakeAgileCloudAuthomation")
+
+		// Access a specific collection in the database
+		def collection = database.getCollection("currency")
+		
+		
+		
+		println("All country currency in the world per doller:")
+		println(allCurrenciesQuery(collection ) )
+		println("\n")
+		
+		println("Filtered countries whose (rate > 1000.0):")
+		println(filterHighRateCountries(collection))
+		println("\n")
+		
+		println("Give average rate of each conitinent rate to the dollar:")
+		println(groupAvgRatePerContinent(collection))
+		println("\n")
+		
+		println("Top performing currency (rate to dollar < 5.0):")
+		println(filteredCurrencyBelowFiveRate(collection) )
+		println("\n")
+		
+		println("Filtered and Aggregate Worst Ten performing currency to the dollar:")
+		println(topWorstPerformingCurrency(collection))
+		
+		
+		println("Project European Countries Rate to the Dollar:")
+		println(projectEuropeanCountryAndRates(collection))
+		
+		println("Get Top Five Performing Curency Per Continent")
+		println( topFiveCurrenciesPerContinent(collection))
+		println("\n")
+		
+		
+		def codeOrCountry = "ANG" // Example: code or country name
+		println("Get Rate to US Doller Based on Country Or Code")
+		println( findRateByCodeOrCountry(collection, codeOrCountry))
+		println("\n")
+		
+		mongoClient.close()
+	}
+	
+		
+	static String allCurrenciesQuery(MongoCollection<Document> collection) {
+	
+		def formattedTable = new StringBuilder()
+		formattedTable.append(String.format("| %-35s | %-10s | %-20s | %-20s |\n", "Country", "Code", "Continent", "Rate to USD"))
+		formattedTable.append("|-------------------------------------|------------|--------------------|----------------------|\n")
+	
+		
+		def allDocuments = collection.find()
+		allDocuments.each { doc ->
+			def code = doc.get("code")
+			def rate = doc.get("rate_to_usd")
+			def country = doc.get("country")
+			def continent = doc.get("continent")
+			
+			formattedTable.append(String.format("| %-35s | %-10s | %-20s | %-20s |\n", country, code, continent, rate))
+		}
+		
+		    def result =formattedTable.toString()
+			return result
+	}
+	
+	
+
+	static String filterHighRateCountries(MongoCollection<Document> collection) {
+		collection.createIndex(new Document("rate_to_usd", -1))
+		def formattedTable = new StringBuilder()
+		formattedTable.append(String.format("| %-20s | %-20s |\n", "Country", "Rate"))
+		formattedTable.append("|----------------------|----------------------|\n")
+		
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		def data = []
+		def cacheKey = "filterHighRateCountries"
+		def cachedResult = cache.get(cacheKey)
+		println(cachedResult)
+		
+		if (cachedResult != null) {
+			println("jesus is lord")
+			// Parse the JSON string into a Groovy object
+			def jsonSlurper = new JsonSlurper()
+			cachedResult = jsonSlurper.parseText(cachedResult)
+			println(cachedResult.getClass())
+			def dataset = new DefaultCategoryDataset()
+			cachedResult.each { item ->
+				println(item[0])
+				println(item[1])
+				
+				dataset.addValue(item[1], "Rate", item[0])
+			}
+			
+			// Create chart
+			def chart = ChartFactory.createBarChart(
+				"Exchange Rate by Country", // Title
+				"Country", // X-axis label
+				"Rate", // Y-axis label
+				dataset
+			)
+			
+			// Display chart
+			def panel = new ChartPanel(chart)
+			def frame = new javax.swing.JFrame("Exchange Rate by Country")
+			frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE)
+			frame.getContentPane().add(panel)
+			frame.pack()
+			frame.setVisible(true)
+		
+		}
+		
+	
+
+		collection.find(new Document("rate_to_usd", new Document("\$gt", 1000))).forEach { doc ->
+			def country = doc.getString("country")
+			def rateToUSD = doc.getDouble("rate_to_usd")
+			
+			def documentData = [:]
+			documentData['country'] = country
+			documentData['rateToUSD'] = rateToUSD
+			
+			// Add the map to the list
+			data.add(documentData)
+			
+			formattedTable.append(String.format("| %-20s | %-20s |\n", country, rateToUSD))
+			
+		}
+	        def result = JsonOutput.toJson(data)
+			cache.put( cacheKey, result, 60);
+			return formattedTable.toString()
+	}
+	
+	static String groupAvgRatePerContinent(MongoCollection<Document> collection) {
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		def cacheKey = "groupAvgRatePerContinent"
+		def cachedResult = cache.get(cacheKey)
+		if (cachedResult != null) {
+			return cachedResult
+		}
+		collection.createIndex(new Document("continent", 1))
+		def formattedTable = new StringBuilder()
+		formattedTable.append("| %-20s | %-20s |\n".format("Continent", "Average Rate to USD"))
+		formattedTable.append("|----------------------|----------------------|\n")
+
+		collection.aggregate([
+			new Document("\$group", new Document("_id", "\$continent").append("avgRate", new Document("\$avg", "\$rate_to_usd")))
+		]).forEach { doc ->
+			def continent = doc.getString("_id")
+			def avgRate = doc.getDouble("avgRate")
+			formattedTable.append(String.format("| %-20s | %-20s |\n", continent, avgRate))
+			
+		}
+		
+		
+		     def result =formattedTable.toString()
+			cache.put( cacheKey, result, 60);
+			return formattedTable.toString()
+	}
+
+		
+	static String topWorstPerformingCurrency(MongoCollection<Document> collection) {
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		
+		def cacheKey = "topWorstPerformingCurrency"
+		def cachedResult = cache.get(cacheKey)
+		if (cachedResult != null) {
+			return cachedResult
+		}
+		
+		collection.createIndex(new Document("rate_to_usd", -1))
+		
+			def formattedTable = new StringBuilder()
+			formattedTable.append(String.format("| %-35s | %-20s |\n", "Country", "Rate"))
+			formattedTable.append("|-------------------------------------|----------------------|\n")
+	
+			// Aggregate pipeline to sort documents based on rate_to_usd and limit to top 10
+			def pipeline = [
+				new Document('$sort', new Document('rate_to_usd', -1)), // Sort by rate_to_usd in descending order
+				new Document('$limit', 10), // Limit to top 10 documents
+				new Document('$project', new Document('country', 1).append('rate_to_usd', 1)) // Project only country and rate_to_usd fields
+			]
+	
+			// Perform aggregation
+			collection.aggregate(pipeline).forEach { doc ->
+				def country = doc.getString("country")
+				def rateToUSD = doc.get("rate_to_usd") instanceof Integer ? doc.getInteger("rate_to_usd").doubleValue() : doc.getDouble("rate_to_usd")
+				formattedTable.append(String.format("| %-35s | %-20s |\n", country, rateToUSD))
+			}
+			
+			def result =formattedTable.toString()
+			cache.put( cacheKey, result, 60);
+			return result
+		}
+	
+	
+	static String projectEuropeanCountryAndRates(MongoCollection<Document> collection) {
+		def cacheKey = "projectEuropeanCountryAndRates"
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		def cachedResult = cache.get(cacheKey)
+		if (cachedResult != null) {
+			return cachedResult
+		}
+		   def formattedTable = new StringBuilder()
+		   collection.createIndex(new Document("continent", 1))
+		   
+		   formattedTable.append(String.format("| %-35s | %-20s |\n", "Country", "Rate"))
+		   formattedTable.append("|-------------------------------------|----------------------|\n")
+	
+			def projection = new Document("country", 1).append("rate_to_usd", 1)
+			def filter = Filters.eq("continent", "Europe")
+	
+		 collection.find(filter).projection(projection).forEach { doc ->
+		 def country = doc.getString("country")
+		 def rateToUSD = doc.get("rate_to_usd") instanceof Integer ? doc.getInteger("rate_to_usd").doubleValue() : doc.getDouble("rate_to_usd")
+		 formattedTable.append(String.format("| %-35s | %-20s |\n", country, rateToUSD))
+	}
+	
+	        def result =formattedTable.toString()
+			cache.put( cacheKey, result, 60);
+			return result
+	}
+	
+	static String topFiveCurrenciesPerContinent(MongoCollection<Document> collection) {
+		def cacheKey = "topFiveCurrenciesPerContinent"
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		def cachedResult = cache.get(cacheKey)
+		if (cachedResult != null) {
+			return cachedResult
+		}
+		def continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania"]
+		collection.createIndex(new Document("continent", 1).append("rate_to_usd", 1))
+		
+		
+			def formattedTable = new StringBuilder()
+			formattedTable.append(String.format("| %-35s | %-20s | %-15s |\n", "Country", "Continent", "Rate"))
+			formattedTable.append("|-------------------------------------|----------------------|---------------|\n")
+		
+			continents.each { continent ->
+				def currencies = collection.find(Filters.eq("continent", continent))
+											.sort(new Document("rate_to_usd", 1))
+											.projection(Projections.include("country", "rate_to_usd"))
+											.limit(5)
+											.toList()
+		
+				currencies.each { currency ->
+					def country = currency.getString("country")
+					def rateToUSD = currency.get("rate_to_usd") instanceof Integer ? currency.getInteger("rate_to_usd").doubleValue() : currency.getDouble("rate_to_usd")
+					formattedTable.append(String.format("| %-35s | %-20s | %-15s |\n", country, continent, rateToUSD))
+				}
+			}
+		
+		    def result =formattedTable.toString()
+			cache.put( cacheKey, result, 60);
+			return result
+	}
+	
+	static String filteredCurrencyBelowFiveRate(MongoCollection<Document> collection) {
+		
+		def cacheKey = "filteredCurrencyBelowFiveRate"
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		def cachedResult = cache.get(cacheKey)
+		if (cachedResult != null) {
+			return cachedResult
+		}
+		def formattedTable = new StringBuilder()
+		collection.createIndex(new Document("rate_to_usd", 1))
+		
+		formattedTable.append(String.format("| %-35s | %-20s |\n", "Country", "Rate to USD"))
+		formattedTable.append("|-------------------------------------|----------------------|\n")
+	
+		// Filter documents where rate < 5
+		def filteredDocuments = collection.find(new Document("rate_to_usd", new Document("\$lt", 5)))
+	
+		// Iterate over filtered documents and format as table
+		filteredDocuments.each { Document doc ->
+			def country = doc.getString("country").padRight(35)
+			// Convert rate_to_usd to Double if it's an Integer
+			def rateToUSD = doc.get("rate_to_usd") instanceof Integer ?
+				doc.getInteger("rate_to_usd").doubleValue() :
+				doc.getDouble("rate_to_usd")
+			formattedTable.append(String.format("| %-35s | %-20s |\n", country, rateToUSD))
+		}
+	
+			def result =formattedTable.toString()
+			cache.put( cacheKey, result, 60);
+			return result
+	}
+	
+	static String findRateByCodeOrCountry(MongoCollection<Document> collection, String codeOrCountry) {
+		def result = ""
+		def cacheKey = "findRateByCodeOrCountry"
+		MongoDBCache cache = new MongoDBCache(connectionString, "ReatakeAgileCloudAuthomation", "cache_collection");
+		
+		def cachedValue = cache.get(cacheKey);
+		
+		if (cachedValue != null) {
+			def jsonSlurper = new JsonSlurper()
+			def jsonObject = jsonSlurper.parseText(cachedValue)
+		println(jsonObject)
+	
+			return
+		}
+		
+				// Retrieve data from the cache
+	     // Determine whether to search by country or code
+		collection.createIndex(Indexes.ascending("code"));
+		
+		// Define your match query
+		Document matchQuery = new Document("\$match", new Document("code", codeOrCountry));
+		
+		// Define your projection to retrieve only specific fields (if needed)
+		Document projection = new Document("\$project", new Document("country", 1).append("rate_to_usd", 1).append("_id", 0));
+		
+		// Add a $limit stage to ensure only the first matching document is returned
+		Document limitStage = new Document("\$limit", 1);
+		
+		// Aggregate using the match, projection, and limit stages
+		MongoCursor<Document> cursor = collection.aggregate(Arrays.asList(matchQuery, projection, limitStage)).iterator();
+		
+		// Check if there is a document and process it
+		if (cursor.hasNext()) {
+			Document document = cursor.next();
+			println(document.toJson());
+			result = document.toJson()
+		} else {
+			println("No matching document found");
+		}
+		
+		// Close the cursor when done
+		cursor.close();
+		cache.put( "findRateByCodeOrCountry", result, 60); // Cache for 60 seconds
+		
+      
+	}
+	
+}
+
+public class MongoDBCache {
+	private final MongoClient mongoClient;
+	private final MongoDatabase database;
+	private final MongoCollection<Document> cacheCollection;
+
+	public MongoDBCache(String connectionString, String databaseName, String collectionName) {
+		mongoClient = MongoClients.create(connectionString);
+		database = mongoClient.getDatabase(databaseName);
+		cacheCollection = database.getCollection(collectionName);
+	}
+
+	public void put(String key, String value, long ttlInSeconds) {
+		Document cacheEntry = new Document("key", key)
+								  .append("value", value)
+								  .append("expirationTime", System.currentTimeMillis() + ttlInSeconds * 1000);
+		cacheCollection.insertOne(cacheEntry);
+	}
+
+	public String get(String key) {
+		Document cacheEntry = cacheCollection.find(new Document("key", key)).first();
+		
+		
+		if (cacheEntry != null) {
+			long expirationTime = cacheEntry.getLong("expirationTime");
+			if (expirationTime > System.currentTimeMillis()) {
+				
+				Gson gson = new Gson();
+				return gson.toJson(cacheEntry.getString("value"));
+			} else {
+				// Remove expired cache entry
+		
+				cacheCollection.deleteOne(new Document("key", key));
+			}
+		}
+		return null; // Cache miss
+	}
+}

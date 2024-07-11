@@ -1,0 +1,30 @@
+package org.xtext.example.mydsl1.generator
+
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.EObject
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.resource.XtextResourceSet
+
+import com.google.inject.Injector
+
+import org.xtext.example.mydsl1.MyDslStandaloneSetup
+import org.xtext.example.mydsl1.myDsl.ConnectionStatement
+
+import java.io.File
+
+class Retake {
+	/**
+	 * Generates MongoDB code for connection and schema definition.
+	 */
+	def static performOperation = 0
+	def static modelList = []
+	
+	
+	static void main(String[] args) {
+	
+		
+	}
+
+	
+
+}

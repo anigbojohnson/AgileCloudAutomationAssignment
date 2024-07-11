@@ -1,0 +1,185 @@
+package org.xtext.example.mydsl1.generator
+
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.EObject
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.xtext.resource.XtextResourceSet
+
+import com.google.inject.Injector
+
+import org.xtext.example.mydsl1.MyDslStandaloneSetup
+import org.xtext.example.mydsl1.myDsl.ConnectionStatement
+import org.xtext.example.mydsl1.myDsl.DictionaryEntry
+import org.xtext.example.mydsl1.myDsl.MakeStatement
+import org.xtext.example.mydsl1.myDsl.Model
+import org.xtext.example.mydsl1.myDsl.MongoDB
+import org.xtext.example.mydsl1.myDsl.OtherOperationStatement
+
+import java.io.File
+
+class Retake {
+	/**
+	 * Generates MongoDB code for connection, schema definition, and CRUD operations.
+	 */
+	static void main(String[] args) {
+		def injector = new MyDslStandaloneSetup().createInjectorAndDoEMFRegistration()
+		XtextResourceSet resourceSet = injector.getInstance(XtextResourceSet.class)
+
+		def path = "/org.xtext.example.mydsl1/resources/example1.mydsl1" // Adjust the path to your DSL file
+		Resource resource = resourceSet.getResource(URI.createFileURI(path), true)
+
+		def mongo = (MongoDB) resource.getContents().get(0)
+
+		def text = traverse(mongo.models)
+
+		def output = new File("/org.xtext.example.mydsl1/resources/output.js")
+		output.delete()
+		output.createNewFile()
+		output << text
+		println("Generated code written to: ${output.absolutePath}")
+	}
+
+	def static String traverse(List<EObject> list) {
+		String text = ''
+		for (obj in list) {
+			text += generatePatterns(obj)
+		}
+		return text
+	}
+
+	def static String generatePatterns(EObject element) {
+		def text = ""
+		switch (element) {
+			case Model:
+				text += generateMongoDBConnectionCode(element.connection)
+				text += traverse(element.statements)
+				break;
+			case OtherOperationStatement:
+				text += generateCRUDOperations(element)
+				break;
+			case ConnectionStatement:
+				text += generateMongoDBConnectionCode(element)
+				break;
+			case MakeStatement:
+				text += generateMongoDBSchema(element)
+				break;
+		}
+		return text
+	}
+
+	def static String generateMongoDBSchema(MakeStatement schema) {
+		String code = """
+            const ${schema.name.toLowerCase()}Schema = new mongoose.Schema({
+        """
+
+		for (entry in schema.entries) {
+			code += generateSchemaField(entry)
+		}
+
+		code += """
+            }, {
+                timestamps: true,
+            });
+        """
+
+		return code
+	}
+
+	def static String generateMongoDBConnectionCode(ConnectionStatement connection) {
+		String connectionString = connection.connectionString
+		String databaseName = connection.database
+
+		return """
+
+            const { MongoClient } = require('mongodb');
+            const client = new MongoClient("${connectionString}",{ useNewUrlParser: true, useUnifiedTopology: true });
+            let db = undefined;
+
+            async function connect() {
+                try {
+                    await client.connect();
+                    db = await client.db("${databaseName}");
+                    console.log("Connected successfully to server");
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+           connect()
+        """
+	}
+
+	static String generateSchemaField(DictionaryEntry entry) {
+		String code = """
+            ${entry.name}: {
+        """
+
+		if (entry.refDictionary != null) {
+			code += """
+                type: mongoose.Schema.Types.ObjectId,
+                ref: '${entry.refDictionary.name}',
+        """
+		} else {
+			code += """
+                type: ${entry.fieldType},
+        """
+		}
+
+		if (entry.status != null && entry.status == "required") {
+			code += """
+                required: true,
+            """
+		}
+		if (entry.uniqueKey != null && entry.uniqueKey == "unique") {
+			code += """
+                unique: true,
+            """
+		}
+
+		code += """
+            },
+        """
+
+		return code
+	}
+
+	static String generateCRUDOperations(OtherOperationStatement operationStatement) {
+		String collectionName = operationStatement.collection.name
+		String operationType = operationStatement.type.toLowerCase()
+		String code = ""
+
+		switch (operationType) {
+			case "get":
+				code += """
+                    async function get${collectionName}() {
+                        try {
+                            const result = await db.collection("${collectionName}").find().toArray();
+                            console.log("All ${collectionName} documents:", result);
+                            return result;
+                        } catch (error) {
+                            console.error("Error getting ${collectionName} documents:", error);
+                            throw error;
+                        }
+                    }
+                """
+				break;
+			case "insert":
+				code += """
+                    async function insert${collectionName}(data) {
+                        try {
+                            const result = await db.collection("${collectionName}").insertOne(data);
+                            console.log("Inserted document:", result.ops[0]);
+                            return result.ops[0];
+                        } catch (error) {
+                            console.error("Error inserting document:", error);
+                            throw error;
+                        }
+                    }
+                """
+				break;
+			// Similarly, add cases for update and delete operations
+			// Update and delete operations can use updateOne, updateMany, deleteOne, deleteMany MongoDB methods
+		}
+
+		return code
+	}
+}

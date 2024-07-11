@@ -1,0 +1,242 @@
+package retake
+@Grab(group='org.mongodb', module='mongodb-driver-sync', version='4.11.1')
+import com.mongodb.MongoClientSettings
+import com.mongodb.ServerAddress
+import com.mongodb.client.MongoClients
+import org.bson.Document
+
+class ExerciseOne {
+	static void main(String[] args) {
+ def connectionString = "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/FTMP?retryWrites=true&w=majority" 
+
+        // Connect to the MongoDB server using the connection string
+        def mongoClient = MongoClients.create(connectionString)
+
+        // Access a specific database
+        def database = mongoClient.getDatabase("ReatakeAgileCloudAuthomation")
+
+        // Access a specific collection in the database
+        def collection = database.getCollection("currency")
+		def document;
+	/*
+		def exchangeRate = [
+			["USD", 1],
+			["AED", 3.67],
+			["AFN", 70.89],
+			["ALL", 95.26],
+			["AMD", 405.5],
+			["ANG", 1.79],
+			["AOA", 841.97],
+			["ARS", 816.05],
+			["AUD", 1.49],
+			["AWG", 1.79],
+			["AZN", 1.7],
+			["BAM", 1.79],
+			["BBD", 2],
+			["BDT", 109.56],
+			
+			["BGN", 2.28],
+			["BHD", 0.479],
+			["BIF", 3630.48],
+			["BMD", 1.27],
+			["BND", 1.7],
+			["BOB", 8.75],
+			["BRL", 6.2],
+			["BSD", 1.27],
+			["BTN", 105.68],
+			["BWP", 17.33],
+			["BYN", 4.1],
+			["BZD", 2.55],
+			["CAD", 1.71],
+			["CDF", 3500.82],
+			["CHF", 1.09],
+			["CLP", 1161.45],
+			["CNY", 9.15],
+			["COP", 5059.9],
+			["CRC", 661.3],
+			["CUP", 30.6],
+			["CVE", 128.34],
+			["CZK", 28.69],
+			["DJF", 226.59],
+			["DKK", 8.68],
+			["DOP", 73.44],
+			["DZD", 170.68],
+			["EGP", 39.3],
+			["ERN", 19.12],
+			["ETB", 70.22],
+			["EUR", 1.16],
+			["FJD", 2.82],
+			["FKP", 1],
+			["FOK", 8.68],
+			["GEL", 3.41],
+			["GGP", 1],
+			["GHS", 15.37],
+			["GIP", 1],
+			["GMD", 81.92],
+			["GNF", 10946.17],
+			["GTQ", 9.88],
+			["GYD", 267.09],
+			["HKD", 9.97],
+			["HNL", 31.16],
+			["HRK", 8.77],
+			["HTG", 169.81],
+			["HUF", 441.07],
+			["IDR", 19829.54],
+			["ILS", 4.76],
+			["IMP", 1],
+			["INR", 105.68],
+			["IQD", 1675.61],
+			["IRR", 53785.84],
+			["ISK", 174.75],
+			["JEP", 1],
+			["JMD", 196.88],
+			["JOD", 0.904],
+			["JPY", 184.79],
+			["KES", 202.8],
+			["KGS", 113.86],
+			["KHR", 5227.89],
+			["KID", 1.91],
+			["KMF", 572.61],
+			["KRW", 1672.72],
+			["KWD", 0.39],
+			["KYD", 1.06],
+			["KZT", 576.9],
+			["LAK", 25933.31],
+			["LBP", 19124.73],
+			["LKR", 409.83],
+			["LRD", 241.67],
+			["LSL", 23.77],
+			["LYD", 6.13],
+			["MAD", 12.7],
+			["MDL", 22.59],
+			["MGA", 5854.84],
+			["MKD", 71.46],
+			["MMK", 3681.48],
+			["MNT", 4400.39],
+			["MOP", 10.27],
+			["MRU", 50.5],
+			["MUR", 56.09],
+			["MVR", 19.51],
+			["MWK", 2164.59],
+			["MXN", 21.51],
+			["MYR", 5.92],
+			["MZN", 81.5],
+			["NAD", 23.77],
+			["NGN", 1137.83],
+			["NIO", 46.24],
+			["NOK", 13.12],
+			["NPR", 169.09],
+			["NZD", 2.04],
+			["OMR", 0.49],
+			["PAB", 1.27],
+			["PEN", 4.71],
+			["PGK", 4.71],
+			["PHP", 71.32],
+			["PKR", 357.14],
+			["PLN", 5.07],
+			["PYG", 9273.39],
+			["QAR", 4.64],
+			["RON", 5.79],
+			["RSD", 136.31],
+			["RUB", 113.68],
+			["RWF", 1677.41],
+			["SAR", 4.78],
+			["SBD", 10.7],
+			["SCR", 16.92],
+			["SDG", 570.73],
+			["SEK", 13.09],
+			["SGD", 1.7],
+			["SHP", 1],
+			["SLE", 28.93],
+			["SLL", 28930.62],
+			["SOS", 730.15],
+			["SRD", 47.09],
+			["SSP", 1390.67],
+			["STN", 28.52],
+			["SYP", 16228.43],
+			["THB", 44.62],
+			["TJS", 13.95],
+			["TMT", 4.46],
+			["TND", 3.94],
+			["TOP", 2.96],
+			["TRY", 38.36],
+			["TTD", 8.78],
+			["TVD", 1.91],
+			["TWD", 39.61],
+			["TZS", 3211.87],
+			["UAH", 48.28],
+			["UGX", 4845.36],
+			["USD", 1.27],
+			["UYU", 49.98],
+			["UZS", 15730.9],
+			["VES", 45.95],
+			["VND", 31189.46],
+			["VUV", 150.03],
+			["WST", 3.44],
+			["XAF", 763.48],
+			["XCD", 3.44],
+			["XDR", 0.955],
+			["XOF", 763.48],
+			["XPF", 138.89],
+			["YER", 315.91],
+			["ZAR", 23.77],
+			["ZMW", 33.34],
+			["ZWL", 10643.35]
+		];
+
+		exchangeRate.each { currency ->
+    // Create a document to insert into the collection
+    document = new Document([
+        "code": currency[0],
+        "rate": currency[1]
+    ])
+    // Insert the document into the collection
+    collection.insertOne(document)
+
+		}
+		*/
+		
+		
+        // Now you can perform operations on the collection, e.g., insert, update, find, etc.
+
+        // Don't forget to close the MongoClient when done
+		
+		
+		// 1. Data Selection (Select * from ... in SQL)
+		def allDocuments = collection.find()
+		println("All Documents:")
+		allDocuments.forEach { doc ->
+			println(" ${doc.get("code")},${doc.get("rate")}")
+		}
+		println("\n")
+
+		// 2. Data Projection (Select COL1, COL2, COL3 from ... in SQL)
+		def projectionDocument = new Document("code", 1).append("rate", 1).append("_id", 0)
+		def projectedDocuments = collection.find().projection(projectionDocument)
+		println("Projected Documents:")
+		projectedDocuments.forEach { doc ->
+			println(doc.toJson())
+		}
+		println("\n")
+
+		// 3. Data Filtering (Select * from ... where condition in SQL)
+		def filterDocument = new Document("rate", new Document("\$gt", 5.0))
+		def filteredDocuments = collection.find(filterDocument)
+		println("Filtered Documents (rate > 5.0):")
+		filteredDocuments.forEach { doc ->
+			println(doc.toJson())
+		}
+		println("\n")
+
+		// 4. Data Combination (like sums) and/or Data Grouping (like GROUP BY in SQL)
+		// For illustration, let's group by the first letter of the currency code
+		def groupDocument = new Document("_id", new Document("\$substr", ["\$code", 0, 1])).append("averageRate", new Document("\$avg", "\$rate"))
+		def groupedDocuments = collection.aggregate([new Document("\$group", groupDocument)])
+		println("Grouped Documents (Average Rate by First Letter of Currency Code):")
+		groupedDocuments.forEach { doc ->
+			println(doc.toJson())
+		}
+		println("\n")
+        mongoClient.close()
+	}
+}

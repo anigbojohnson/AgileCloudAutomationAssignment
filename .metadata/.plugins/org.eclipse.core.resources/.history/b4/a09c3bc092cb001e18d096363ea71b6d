@@ -1,0 +1,60 @@
+package exerciseOneTest
+import org.junit.Test
+
+
+@Grab(group='org.mongodb', module='mongodb-driver-sync', version='4.11.1')
+@Grab(group='org.junit.platform', module='junit-platform-launcher', version='1.7.0')
+
+import org.junit.jupiter.api.AfterAll
+import org.junit.jupiter.api.BeforeAll
+import com.mongodb.client.MongoClients
+import com.mongodb.client.MongoCollection
+import com.mongodb.client.MongoDatabase
+import org.bson.Document
+import static org.junit.jupiter.api.Assertions.assertTrue
+import static org.junit.Assert.assertEquals
+@Grab(group='org.mongodb', module='mongodb-driver-sync', version='4.11.1')
+import com.mongodb.MongoClientSettings
+import com.mongodb.ServerAddress
+import com.mongodb.client.MongoClients
+import com.mongodb.client.MongoCollection
+import org.bson.Document
+
+class ExerciseOneTest {
+	def connectionString = ""
+	// Connect to the MongoDB server using the connection string
+	def mongoClient =""
+	def database =""
+	
+	@BeforeAll
+	void setup() {
+		connectionString = "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/FTMP?retryWrites=true&w=majority"
+		// Connect to the MongoDB server using the connection string
+		mongoClient = MongoClients.create(connectionString)
+		database = mongoClient.getDatabase("testCurrency")
+		def collection = database.getCollection("currency")
+	}
+
+	@AfterAll
+	void cleanup() {
+		// Close resources after all tests are executed
+		database.getMongoClient().close()
+	}
+
+	@Test
+	void testAllDocumentsQuery() {
+		// Insert test data into the collection for this test
+		collection.insertOne(new Document("code", "NGA").append("rate", 1500))
+		collection.insertOne(new Document("code", "UK").append("rate", 1.2))
+
+		// Perform the test
+		def result = ExerciseOne.allDocumentsQuery(collection)
+
+		// Assert the results
+		assertTrue(result.contains("| Code                 | Rate                 |"))
+		assertTrue(result.contains("|----------------------|----------------------|"))
+		assertTrue(result.contains("| SampleCode1          | 10.5                 |"))
+		assertTrue(result.contains("| SampleCode2          | 8.2                  |"))
+	}
+	
+}

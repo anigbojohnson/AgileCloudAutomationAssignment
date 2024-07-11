@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.AbstractMyDslRuntimeModule"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.MyDslStandaloneSetupGenerated"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.scoping.AbstractMyDslScopeProvider"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.validation.AbstractMyDslValidator"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.myDsl.DictionaryEntry"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.myDsl.MakeStatement"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.myDsl.MyDslPackage"/>
+    <fullyQualifiedTypeName name="org.eclipse.xtext.validation.Check"/>
+    <fullyQualifiedTypeName name="org.eclipse.xtext.validation.ValidationMessageAcceptor"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.myDsl.OperationStatement"/>
+    <fullyQualifiedTypeName name="org.xtext.example.mydsl1.myDsl.OtherOperationStatement"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

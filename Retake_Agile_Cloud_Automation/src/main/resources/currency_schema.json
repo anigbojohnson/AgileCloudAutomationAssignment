@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "description": "A list of currency data including code, exchange rate to USD, country, and continent.",
+  "items": {
+    "type": "object",
+    "description": "Currency information",
+    "properties": {
+      "code": {
+        "type": "string",
+        "description": "Represents the currency code of the target currency. This is represented in a string data type."
+      },
+      "rate_to_usd": {
+        "type": "number",
+        "description": "Indicates the conversion rate from USD to the respective currency. This is represented in double."
+      },
+      "country": {
+        "type": "string",
+        "description": "Indicates the country associated with the currency. This is represented in string data type."
+      },
+      "continent": {
+        "type": "string",
+        "description": "Represents the continent to which the currency belongs. This is represented in string datatype.",
+        "enum": ["Africa", "Asia", "Europe", "North America", "South America", "Australia", "Worldwide"]
+      }
+    },
+    "required": ["code", "rate_to_usd", "country", "continent"]
+  }
+}

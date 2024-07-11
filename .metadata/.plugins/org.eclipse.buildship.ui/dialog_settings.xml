@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.buildship.ui.wizard.project.creation">
+		<item key="project_location" value="C:\Users\THOMPSON ANIGBO\eclipse-workspace\RetakeAgileCloudAutomation"/>
+		<item key="use_default_location" value="true"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(8.5))"/>
+	</section>
+	<section name="org.eclipse.buildship.ui.wizard.project.import">
+		<item key="project_location" value="C:\Users\THOMPSON ANIGBO\Downloads\week17_project (2)\week17_project\co7217.xtext.entity.parent"/>
+		<item key="gradle_distribution" value="GRADLE_DISTRIBUTION(VERSION(8.5))"/>
+	</section>
+</section>

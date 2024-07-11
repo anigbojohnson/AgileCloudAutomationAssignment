@@ -1,0 +1,970 @@
+[
+    {
+        "code": "USD",
+        "rate_to_usd": 1,
+        "country": "United States of America",
+        "continent": "North America"
+    },
+    {
+        "code": "AED",
+        "rate_to_usd": 3.67,
+        "country": "United Arab Emirates",
+        "continent": "Asia"
+    },
+    {
+        "code": "AFN",
+        "rate_to_usd": 70.89,
+        "country": "Afghanistan",
+        "continent": "Asia"
+    },
+    {
+        "code": "ALL",
+        "rate_to_usd": 95.26,
+        "country": "Albania",
+        "continent": "Europe"
+    },
+    {
+        "code": "AMD",
+        "rate_to_usd": 405.5,
+        "country": "Armenia",
+        "continent": "Asia"
+    },
+    {
+        "code": "ANG",
+        "rate_to_usd": 1.79,
+        "country": "Netherlands Antilles",
+        "continent": "North America"
+    },
+    {
+        "code": "AOA",
+        "rate_to_usd": 841.97,
+        "country": "Angola",
+        "continent": "Africa"
+    },
+    {
+        "code": "ARS",
+        "rate_to_usd": 816.05,
+        "country": "Argentina",
+        "continent": "South America"
+    },
+    {
+        "code": "AUD",
+        "rate_to_usd": 1.49,
+        "country": "Australia",
+        "continent": "Australia"
+    },
+    {
+        "code": "AWG",
+        "rate_to_usd": 1.79,
+        "country": "Aruba",
+        "continent": "North America"
+    },
+    {
+        "code": "AZN",
+        "rate_to_usd": 1.7,
+        "country": "Azerbaijan",
+        "continent": "Asia"
+    },
+    {
+        "code": "BAM",
+        "rate_to_usd": 1.79,
+        "country": "Bosnia and Herzegovina",
+        "continent": "Europe"
+    },
+    {
+        "code": "BBD",
+        "rate_to_usd": 2,
+        "country": "Barbados",
+        "continent": "North America"
+    },
+    {
+        "code": "BDT",
+        "rate_to_usd": 109.56,
+        "country": "Bangladesh",
+        "continent": "Asia"
+    },
+    {
+        "code": "BGN",
+        "rate_to_usd": 2.28,
+        "country": "Bulgaria",
+        "continent": "Europe"
+    },
+    {
+        "code": "BHD",
+        "rate_to_usd": 0.479,
+        "country": "Bahrain",
+        "continent": "Asia"
+    },
+    {
+        "code": "BIF",
+        "rate_to_usd": 3630.48,
+        "country": "Burundi",
+        "continent": "Africa"
+    },
+    {
+        "code": "BMD",
+        "rate_to_usd": 1.27,
+        "country": "Bermuda",
+        "continent": "North America"
+    },
+    {
+        "code": "BND",
+        "rate_to_usd": 1.7,
+        "country": "Brunei Darussalam",
+        "continent": "Asia"
+    },
+    {
+        "code": "BOB",
+        "rate_to_usd": 8.75,
+        "country": "Bolivia",
+        "continent": "South America"
+    },
+    {
+        "code": "BRL",
+        "rate_to_usd": 6.2,
+        "country": "Brazil",
+        "continent": "South America"
+    },
+    {
+        "code": "BSD",
+        "rate_to_usd": 1.27,
+        "country": "Bahamas",
+        "continent": "North America"
+    },
+    {
+        "code": "BTN",
+        "rate_to_usd": 105.68,
+        "country": "Bhutan",
+        "continent": "Asia"
+    },
+    {
+        "code": "BWP",
+        "rate_to_usd": 17.33,
+        "country": "Botswana",
+        "continent": "Africa"
+    },
+    {
+        "code": "BYN",
+        "rate_to_usd": 4.1,
+        "country": "Belarus",
+        "continent": "Europe"
+    },
+    {
+        "code": "BZD",
+        "rate_to_usd": 2.55,
+        "country": "Belize",
+        "continent": "North America"
+    },
+    {
+        "code": "CAD",
+        "rate_to_usd": 1.71,
+        "country": "Canada",
+        "continent": "North America"
+    },
+    {
+        "code": "CDF",
+        "rate_to_usd": 3500.82,
+        "country": "Democratic Republic of the Congo",
+        "continent": "Africa"
+    },
+    {
+        "code": "CHF",
+        "rate_to_usd": 1.09,
+        "country": "Switzerland",
+        "continent": "Europe"
+    },
+    {
+        "code": "CLP",
+        "rate_to_usd": 1161.45,
+        "country": "Chile",
+        "continent": "South America"
+    },
+    {
+        "code": "CNY",
+        "rate_to_usd": 9.15,
+        "country": "China",
+        "continent": "Asia"
+    },
+    {
+        "code": "COP",
+        "rate_to_usd": 5059.9,
+        "country": "Colombia",
+        "continent": "South America"
+    },
+    {
+        "code": "CRC",
+        "rate_to_usd": 661.3,
+        "country": "Costa Rica",
+        "continent": "North America"
+    },
+    {
+        "code": "CUP",
+        "rate_to_usd": 30.6,
+        "country": "Cuba",
+        "continent": "North America"
+    },
+    {
+        "code": "CVE",
+        "rate_to_usd": 128.34,
+        "country": "Cape Verde",
+        "continent": "Africa"
+    },
+    {
+        "code": "CZK",
+        "rate_to_usd": 28.69,
+        "country": "Czech Republic",
+        "continent": "Europe"
+    },
+    {
+        "code": "DJF",
+        "rate_to_usd": 226.59,
+        "country": "Djibouti",
+        "continent": "Africa"
+    },
+    {
+        "code": "DKK",
+        "rate_to_usd": 8.68,
+        "country": "Denmark",
+        "continent": "Europe"
+    },
+    {
+        "code": "DOP",
+        "rate_to_usd": 73.44,
+        "country": "Dominican Republic",
+        "continent": "North America"
+    },
+    {
+        "code": "DZD",
+        "rate_to_usd": 170.68,
+        "country": "Algeria",
+        "continent": "Africa"
+    },
+    {
+        "code": "EGP",
+        "rate_to_usd": 39.3,
+        "country": "Egypt",
+        "continent": "Africa"
+    },
+    {
+        "code": "ERN",
+        "rate_to_usd": 19.12,
+        "country": "Eritrea",
+        "continent": "Africa"
+    },
+    {
+        "code": "ETB",
+        "rate_to_usd": 70.22,
+        "country": "Ethiopia",
+        "continent": "Africa"
+    },
+    {
+        "code": "EUR",
+        "rate_to_usd": 1.16,
+        "country": "Eurozone",
+        "continent": "Europe"
+    },
+    {
+        "code": "FJD",
+        "rate_to_usd": 2.82,
+        "country": "Fiji",
+        "continent": "Australia"
+    },
+    {
+        "code": "FKP",
+        "rate_to_usd": 1,
+        "country": "Falkland Islands",
+        "continent": "South America"
+    },
+    {
+        "code": "FOK",
+        "rate_to_usd": 8.68,
+        "country": "Faroe Islands",
+        "continent": "Europe"
+    },
+    {
+        "code": "GEL",
+        "rate_to_usd": 3.41,
+        "country": "Georgia",
+        "continent": "Asia"
+    },
+    {
+        "code": "GGP",
+        "rate_to_usd": 1,
+        "country": "Guernsey",
+        "continent": "Europe"
+    },
+    {
+        "code": "GHS",
+        "rate_to_usd": 15.37,
+        "country": "Ghana",
+        "continent": "Africa"
+    },
+    {
+        "code": "GIP",
+        "rate_to_usd": 1,
+        "country": "Gibraltar",
+        "continent": "Europe"
+    },
+    {
+        "code": "GMD",
+        "rate_to_usd": 81.92,
+        "country": "Gambia",
+        "continent": "Africa"
+    },
+    {
+        "code": "GNF",
+        "rate_to_usd": 10946.17,
+        "country": "Guinea",
+        "continent": "Africa"
+    },
+    {
+        "code": "GTQ",
+        "rate_to_usd": 9.88,
+        "country": "Guatemala",
+        "continent": "North America"
+    },
+    {
+        "code": "GYD",
+        "rate_to_usd": 267.09,
+        "country": "Guyana",
+        "continent": "South America"
+    },
+    {
+        "code": "HKD",
+        "rate_to_usd": 9.97,
+        "country": "Hong Kong",
+        "continent": "Asia"
+    },
+    {
+        "code": "HNL",
+        "rate_to_usd": 31.16,
+        "country": "Honduras",
+        "continent": "North America"
+    },
+    {
+        "code": "HRK",
+        "rate_to_usd": 8.77,
+        "country": "Croatia",
+        "continent": "Europe"
+    },
+    {
+        "code": "HTG",
+        "rate_to_usd": 169.81,
+        "country": "Haiti",
+        "continent": "North America"
+    },
+    {
+        "code": "HUF",
+        "rate_to_usd": 441.07,
+        "country": "Hungary",
+        "continent": "Europe"
+    },
+    {
+        "code": "IDR",
+        "rate_to_usd": 19829.54,
+        "country": "Indonesia",
+        "continent": "Asia"
+    },
+    {
+        "code": "ILS",
+        "rate_to_usd": 4.76,
+        "country": "Israel",
+        "continent": "Asia"
+    },
+    {
+        "code": "IMP",
+        "rate_to_usd": 1,
+        "country": "Isle of Man",
+        "continent": "Europe"
+    },
+    {
+        "code": "INR",
+        "rate_to_usd": 105.68,
+        "country": "India",
+        "continent": "Asia"
+    },
+    {
+        "code": "IQD",
+        "rate_to_usd": 1675.61,
+        "country": "Iraq",
+        "continent": "Asia"
+    },
+    {
+        "code": "IRR",
+        "rate_to_usd": 53785.84,
+        "country": "Iran",
+        "continent": "Asia"
+    },
+    {
+        "code": "ISK",
+        "rate_to_usd": 174.75,
+        "country": "Iceland",
+        "continent": "Europe"
+    },
+    {
+        "code": "JEP",
+        "rate_to_usd": 1,
+        "country": "Jersey",
+        "continent": "Europe"
+    },
+    {
+        "code": "JMD",
+        "rate_to_usd": 196.88,
+        "country": "Jamaica",
+        "continent": "North America"
+    },
+    {
+        "code": "JOD",
+        "rate_to_usd": 0.904,
+        "country": "Jordan",
+        "continent": "Asia"
+    },
+    {
+        "code": "JPY",
+        "rate_to_usd": 184.79,
+        "country": "Japan",
+        "continent": "Asia"
+    },
+    {
+        "code": "KES",
+        "rate_to_usd": 202.8,
+        "country": "Kenya",
+        "continent": "Africa"
+    },
+    {
+        "code": "KGS",
+        "rate_to_usd": 113.86,
+        "country": "Kyrgyzstan",
+        "continent": "Asia"
+    },
+    {
+        "code": "KHR",
+        "rate_to_usd": 5227.89,
+        "country": "Cambodia",
+        "continent": "Asia"
+    },
+    {
+        "code": "KID",
+        "rate_to_usd": 1.91,
+        "country": "Kiribati",
+        "continent": "Australia"
+    },
+    {
+        "code": "KMF",
+        "rate_to_usd": 572.61,
+        "country": "Comoros",
+        "continent": "Africa"
+    },
+    {
+        "code": "KRW",
+        "rate_to_usd": 1672.72,
+        "country": "South Korea",
+        "continent": "Asia"
+    },
+    {
+        "code": "KWD",
+        "rate_to_usd": 0.39,
+        "country": "Kuwait",
+        "continent": "Asia"
+    },
+    {
+        "code": "KYD",
+        "rate_to_usd": 1.06,
+        "country": "Cayman Islands",
+        "continent": "North America"
+    },
+    {
+        "code": "KZT",
+        "rate_to_usd": 576.9,
+        "country": "Kazakhstan",
+        "continent": "Asia"
+    },
+    {
+        "code": "LAK",
+        "rate_to_usd": 25933.31,
+        "country": "Laos",
+        "continent": "Asia"
+    },
+    {
+        "code": "LBP",
+        "rate_to_usd": 19124.73,
+        "country": "Lebanon",
+        "continent": "Asia"
+    },
+    {
+        "code": "LKR",
+        "rate_to_usd": 409.83,
+        "country": "Sri Lanka",
+        "continent": "Asia"
+    },
+    {
+        "code": "LRD",
+        "rate_to_usd": 241.67,
+        "country": "Liberia",
+        "continent": "Africa"
+    },
+    {
+        "code": "LSL",
+        "rate_to_usd": 23.77,
+        "country": "Lesotho",
+        "continent": "Africa"
+    },
+    {
+        "code": "LYD",
+        "rate_to_usd": 6.13,
+        "country": "Libya",
+        "continent": "Africa"
+    },
+    {
+        "code": "MAD",
+        "rate_to_usd": 12.7,
+        "country": "Morocco",
+        "continent": "Africa"
+    },
+    {
+        "code": "MDL",
+        "rate_to_usd": 22.59,
+        "country": "Moldova",
+        "continent": "Europe"
+    },
+    {
+        "code": "MGA",
+        "rate_to_usd": 5854.84,
+        "country": "Madagascar",
+        "continent": "Africa"
+    },
+    {
+        "code": "MKD",
+        "rate_to_usd": 71.46,
+        "country": "North Macedonia",
+        "continent": "Europe"
+    },
+    {
+        "code": "MMK",
+        "rate_to_usd": 3681.48,
+        "country": "Myanmar",
+        "continent": "Asia"
+    },
+    {
+        "code": "MNT",
+        "rate_to_usd": 4400.39,
+        "country": "Mongolia",
+        "continent": "Asia"
+    },
+    {
+        "code": "MOP",
+        "rate_to_usd": 10.27,
+        "country": "Macau",
+        "continent": "Asia"
+    },
+    {
+        "code": "MRU",
+        "rate_to_usd": 50.5,
+        "country": "Mauritania",
+        "continent": "Africa"
+    },
+    {
+        "code": "MUR",
+        "rate_to_usd": 56.09,
+        "country": "Mauritius",
+        "continent": "Africa"
+    },
+    {
+        "code": "MVR",
+        "rate_to_usd": 19.51,
+        "country": "Maldives",
+        "continent": "Asia"
+    },
+    {
+        "code": "MWK",
+        "rate_to_usd": 2164.59,
+        "country": "Malawi",
+        "continent": "Africa"
+    },
+    {
+        "code": "MXN",
+        "rate_to_usd": 21.51,
+        "country": "Mexico",
+        "continent": "North America"
+    },
+    {
+        "code": "MYR",
+        "rate_to_usd": 5.92,
+        "country": "Malaysia",
+        "continent": "Asia"
+    },
+    {
+        "code": "MZN",
+        "rate_to_usd": 81.5,
+        "country": "Mozambique",
+        "continent": "Africa"
+    },
+    {
+        "code": "NAD",
+        "rate_to_usd": 23.77,
+        "country": "Namibia",
+        "continent": "Africa"
+    },
+    {
+        "code": "NGN",
+        "rate_to_usd": 1137.83,
+        "country": "Nigeria",
+        "continent": "Africa"
+    },
+    {
+        "code": "NIO",
+        "rate_to_usd": 46.24,
+        "country": "Nicaragua",
+        "continent": "North America"
+    },
+    {
+        "code": "NOK",
+        "rate_to_usd": 13.12,
+        "country": "Norway",
+        "continent": "Europe"
+    },
+    {
+        "code": "NPR",
+        "rate_to_usd": 169.09,
+        "country": "Nepal",
+        "continent": "Asia"
+    },
+    {
+        "code": "NZD",
+        "rate_to_usd": 2.04,
+        "country": "New Zealand",
+        "continent": "Australia"
+    },
+    {
+        "code": "OMR",
+        "rate_to_usd": 0.49,
+        "country": "Oman",
+        "continent": "Asia"
+    },
+    {
+        "code": "PAB",
+        "rate_to_usd": 1.27,
+        "country": "Panama",
+        "continent": "North America"
+    },
+    {
+        "code": "PEN",
+        "rate_to_usd": 4.71,
+        "country": "Peru",
+        "continent": "South America"
+    },
+    {
+        "code": "PGK",
+        "rate_to_usd": 4.71,
+        "country": "Papua New Guinea",
+        "continent": "Australia"
+    },
+    {
+        "code": "PHP",
+        "rate_to_usd": 71.32,
+        "country": "Philippines",
+        "continent": "Asia"
+    },
+    {
+        "code": "PKR",
+        "rate_to_usd": 357.14,
+        "country": "Pakistan",
+        "continent": "Asia"
+    },
+    {
+        "code": "PLN",
+        "rate_to_usd": 5.07,
+        "country": "Poland",
+        "continent": "Europe"
+    },
+    {
+        "code": "PYG",
+        "rate_to_usd": 9273.39,
+        "country": "Paraguay",
+        "continent": "South America"
+    },
+    {
+        "code": "QAR",
+        "rate_to_usd": 4.64,
+        "country": "Qatar",
+        "continent": "Asia"
+    },
+    {
+        "code": "RON",
+        "rate_to_usd": 5.79,
+        "country": "Romania",
+        "continent": "Europe"
+    },
+    {
+        "code": "RSD",
+        "rate_to_usd": 136.31,
+        "country": "Serbia",
+        "continent": "Europe"
+    },
+    {
+        "code": "RUB",
+        "rate_to_usd": 113.68,
+        "country": "Russia",
+        "continent": "Europe"
+    },
+    {
+        "code": "RWF",
+        "rate_to_usd": 1677.41,
+        "country": "Rwanda",
+        "continent": "Africa"
+    },
+    {
+        "code": "SAR",
+        "rate_to_usd": 4.78,
+        "country": "Saudi Arabia",
+        "continent": "Asia"
+    },
+    {
+        "code": "SBD",
+        "rate_to_usd": 10.7,
+        "country": "Solomon Islands",
+        "continent": "Australia"
+    },
+    {
+        "code": "SCR",
+        "rate_to_usd": 16.92,
+        "country": "Seychelles",
+        "continent": "Africa"
+    },
+    {
+        "code": "SDG",
+        "rate_to_usd": 570.73,
+        "country": "Sudan",
+        "continent": "Africa"
+    },
+    {
+        "code": "SEK",
+        "rate_to_usd": 13.09,
+        "country": "Sweden",
+        "continent": "Europe"
+    },
+    {
+        "code": "SGD",
+        "rate_to_usd": 1.7,
+        "country": "Singapore",
+        "continent": "Asia"
+    },
+    {
+        "code": "SHP",
+        "rate_to_usd": 1,
+        "country": "Saint Helena",
+        "continent": "Africa"
+    },
+    {
+        "code": "SLE",
+        "rate_to_usd": 28.93,
+        "country": "Sierra Leone",
+        "continent": "Africa"
+    },
+    {
+        "code": "SLL",
+        "rate_to_usd": 28930.62,
+        "country": "Sierra Leone",
+        "continent": "Africa"
+    },
+    {
+        "code": "SOS",
+        "rate_to_usd": 730.15,
+        "country": "Somalia",
+        "continent": "Africa"
+    },
+    {
+        "code": "SRD",
+        "rate_to_usd": 47.09,
+        "country": "Suriname",
+        "continent": "South America"
+    },
+    {
+        "code": "SSP",
+        "rate_to_usd": 1390.67,
+        "country": "South Sudan",
+        "continent": "Africa"
+    },
+    {
+        "code": "STN",
+        "rate_to_usd": 28.52,
+        "country": "São Tomé and Príncipe",
+        "continent": "Africa"
+    },
+    {
+        "code": "SYP",
+        "rate_to_usd": 16228.43,
+        "country": "Syria",
+        "continent": "Asia"
+    },
+    {
+        "code": "THB",
+        "rate_to_usd": 44.62,
+        "country": "Thailand",
+        "continent": "Asia"
+    },
+    {
+        "code": "TJS",
+        "rate_to_usd": 13.95,
+        "country": "Tajikistan",
+        "continent": "Asia"
+    },
+    {
+        "code": "TMT",
+        "rate_to_usd": 4.46,
+        "country": "Turkmenistan",
+        "continent": "Asia"
+    },
+    {
+        "code": "TND",
+        "rate_to_usd": 3.94,
+        "country": "Tunisia",
+        "continent": "Africa"
+    },
+    {
+        "code": "TOP",
+        "rate_to_usd": 2.96,
+        "country": "Tonga",
+        "continent": "Australia"
+    },
+    {
+        "code": "TRY",
+        "rate_to_usd": 38.36,
+        "country": "Turkey",
+        "continent": "Europe"
+    },
+    {
+        "code": "TTD",
+        "rate_to_usd": 8.78,
+        "country": "Trinidad and Tobago",
+        "continent": "North America"
+    },
+    {
+        "code": "TVD",
+        "rate_to_usd": 1.91,
+        "country": "Tuvalu",
+        "continent": "Australia"
+    },
+    {
+        "code": "TWD",
+        "rate_to_usd": 39.61,
+        "country": "Taiwan",
+        "continent": "Asia"
+    },
+    {
+        "code": "TZS",
+        "rate_to_usd": 3211.87,
+        "country": "Tanzania",
+        "continent": "Africa"
+    },
+    {
+        "code": "UAH",
+        "rate_to_usd": 48.28,
+        "country": "Ukraine",
+        "continent": "Europe"
+    },
+    {
+        "code": "UGX",
+        "rate_to_usd": 4845.36,
+        "country": "Uganda",
+        "continent": "Africa"
+    },
+    {
+        "code": "USD",
+        "rate_to_usd": 1.27,
+        "country": "United States",
+        "continent": "North America"
+    },
+    {
+        "code": "UYU",
+        "rate_to_usd": 49.98,
+        "country": "Uruguay",
+        "continent": "South America"
+    },
+    {
+        "code": "UZS",
+        "rate_to_usd": 15730.9,
+        "country": "Uzbekistan",
+        "continent": "Asia"
+    },
+    {
+        "code": "VES",
+        "rate_to_usd": 45.95,
+        "country": "Venezuela",
+        "continent": "South America"
+    },
+    {
+        "code": "VND",
+        "rate_to_usd": 31189.46,
+        "country": "Vietnam",
+        "continent": "Asia"
+    },
+    {
+        "code": "VUV",
+        "rate_to_usd": 150.03,
+        "country": "Vanuatu",
+        "continent": "Australia"
+    },
+    {
+        "code": "WST",
+        "rate_to_usd": 3.44,
+        "country": "Samoa",
+        "continent": "Australia"
+    },
+    {
+        "code": "XAF",
+        "rate_to_usd": 763.48,
+        "country": "Central African Republic",
+        "continent": "Africa"
+    },
+    {
+        "code": "XCD",
+        "rate_to_usd": 3.44,
+        "country": "East Caribbean Dollar",
+        "continent": "North America"
+    },
+    {
+        "code": "XDR",
+        "rate_to_usd": 0.955,
+        "country": "International Monetary Fund (IMF)",
+        "continent": "Worldwide"
+    },
+    {
+        "code": "XOF",
+        "rate_to_usd": 763.48,
+        "country": "West African CFA franc",
+        "continent": "Africa"
+    },
+    {
+        "code": "XPF",
+        "rate_to_usd": 138.89,
+        "country": "French Polynesia",
+        "continent": "Australia"
+    },
+    {
+        "code": "YER",
+        "rate_to_usd": 315.91,
+        "country": "Yemen",
+        "continent": "Asia"
+    },
+    {
+        "code": "ZAR",
+        "rate_to_usd": 23.77,
+        "country": "South Africa",
+        "continent": "Africa"
+    },
+    {
+        "code": "ZMW",
+        "rate_to_usd": 33.34,
+        "country": "Zambia",
+        "continent": "Africa"
+    },
+    {
+        "code": "ZWL",
+        "rate_to_usd": 10643.35,
+        "country": "Zimbabwe",
+        "continent": "Africa"
+    }
+]
+
+    

@@ -1,0 +1,2425 @@
+ [
+        {
+            "code": "USD",
+            "rate_to_usd": 1,
+            "country": "United States of America",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The United States Dollar (USD) has a rich history dating back to the late 18th century. In 1785, the Continental Congress established the US dollar as the country's official currency, following the adoption of the US Constitution in 1789. Throughout the 19th and 20th centuries, the USD grew in prominence, becoming the world's primary reserve currency after World War II. The Bretton Woods Agreement in 1944 solidified this status, pegging many global currencies to the USD and establishing fixed exchange rates. However, this system collapsed in the early 1970s, leading to the era of freely floating exchange rates. Despite this, the USD retained its dominance in international trade and finance. Today, the USD is widely accepted as the world's primary reserve currency, used in global trade, finance, and as a benchmark for commodity pricing."
+        },
+        {
+            "code": "AED",
+            "rate_to_usd": 3.67,
+            "country": "United Arab Emirates",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The United Arab Emirates Dirham (AED) has its origins in the establishment of the UAE in 1971. Before the union, several currencies circulated in the region, including the Indian rupee and the Bahraini dinar. In 1973, the UAE introduced the Dirham as its official currency, replacing the Gulf Rupee at a fixed exchange rate to the Indian Rupee. The decision to peg the Dirham to the US Dollar was made in 1978, aiming to stabilize the currency and facilitate international trade. Over the years, the UAE's economy has diversified beyond oil, with sectors like tourism, finance, and real estate playing significant roles. This economic diversification has helped maintain the stability of the Dirham despite fluctuations in oil prices and global economic uncertainties. Today, the UAE Dirham remains a key currency in the Middle East, widely accepted in international transactions."
+        },
+        {
+            "code": "AFN",
+            "rate_to_usd": 70.89,
+            "country": "Afghanistan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Afghan Afghani (AFN) has a complex history marked by political instability and conflict. Since its introduction in 1925, the Afghani has undergone multiple changes, including revaluations and denominational adjustments. Following the Soviet invasion in 1979 and subsequent civil wars, the Afghani's value fluctuated significantly. The fall of the Taliban regime in 2001 led to efforts to stabilize the currency and rebuild the Afghan economy. However, ongoing political and security challenges continue to impact the Afghani's value. Despite these challenges, the Afghani remains the official currency of Afghanistan, used in daily transactions alongside other currencies like the US Dollar."
+        },
+        {
+            "code": "ALL",
+            "rate_to_usd": 95.26,
+            "country": "Albania",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Albanian Lek (ALL) traces its origins to the early 20th century when Albania gained independence from the Ottoman Empire. Initially, the Albanian Franc was used, followed by the Italian Lira during the Italian occupation. In 1926, the Lek was introduced, pegged to the French Franc. Over the years, Albania experienced political upheavals, including communist rule under Enver Hoxha from 1944 to 1985. During this time, the Lek remained the official currency but faced significant economic challenges. The transition to a market economy in the 1990s brought about currency reforms and efforts to stabilize the Lek. Today, the Lek is the sole legal tender in Albania, used in everyday transactions."
+        },
+        {
+            "code": "AMD",
+            "rate_to_usd": 405.5,
+            "country": "Armenia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Armenian Dram (AMD) has a history dating back to ancient times when Armenia was part of the Persian Empire. Over the centuries, various currencies circulated in the region, including the Persian Daric and the Ottoman Turkish Lira. Modern Armenian currency emerged during the Soviet era when the Transcaucasian Ruble was introduced. Following the collapse of the Soviet Union in 1991, Armenia transitioned to the Dram as its official currency. Economic challenges, including inflation and currency devaluation, marked the early years of independence. However, Armenia implemented reforms to stabilize the Dram and promote economic growth. Today, the Dram is the official currency of Armenia, used in domestic and international transactions."
+        },
+        {
+            "code": "ANG",
+            "rate_to_usd": 1.79,
+            "country": "Netherlands Antilles",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Netherlands Antillean Guilder (ANG) has a history intertwined with Dutch colonialism in the Caribbean. Introduced in the 18th century, the Guilder replaced various currencies used in the Dutch colonies, including the Spanish Dollar. Over the years, the Guilder underwent several changes in value and denomination. In 1954, the Netherlands Antilles gained autonomy within the Kingdom of the Netherlands, solidifying the Guilder's status as the official currency. However, political and economic challenges in the region, including the dissolution of the Netherlands Antilles in 2010, led to uncertainties regarding the Guilder's future. Today, the Guilder is primarily used in the Caribbean islands of Curaçao and Sint Maarten, alongside other currencies like the US Dollar."
+        },
+        {
+            "code": "AOA",
+            "rate_to_usd": 782.67,
+            "country": "Angola",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Angolan Kwanza (AOA) has a complex history shaped by political and economic factors. Introduced following Angola's independence from Portugal in 1975, the Kwanza replaced the Angolan Escudo at par. However, decades of civil war and economic instability took a toll on the currency, leading to hyperinflation and frequent devaluations. In response, the Angolan government implemented currency reforms and stabilization measures. In 1999, the Kwanza was redenominated, with six zeros removed to address hyperinflation. Despite these efforts, the Kwanza's value remains sensitive to fluctuations in oil prices, as oil exports are a significant source of revenue for Angola. Today, the Kwanza is the official currency of Angola, used in daily transactions alongside foreign currencies like the US Dollar."
+        },
+        {
+            "code": "ARS",
+            "rate_to_usd": 101.07,
+            "country": "Argentina",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Argentine Peso (ARS) has a turbulent history marked by economic crises and currency devaluations. Introduced in 1826, the Peso has undergone numerous reforms and changes in value. Hyperinflation, government mismanagement, and political instability have all contributed to the Peso's volatility. In 1991, Argentina implemented a currency board regime, pegging the Peso to the US Dollar to stabilize inflation. However, this fixed exchange rate regime proved unsustainable, leading to a severe economic crisis in 2001. Subsequent devaluations and debt defaults further weakened the Peso's value. Despite efforts to stabilize the currency, including currency controls and intervention by the Central Bank, the Peso remains vulnerable to external shocks and domestic economic challenges. Today, the Peso is the official currency of Argentina, used in everyday transactions alongside the US Dollar."
+        },
+        {
+            "code": "AUD",
+            "rate_to_usd": 1.37,
+            "country": "Australia",
+            "continent": "Oceania",
+            "date": "10 January 2024",
+            "description": "The Australian Dollar (AUD) has a relatively short but dynamic history since its introduction in 1966. Before the Australian Dollar, various currencies were used in Australia, including the British Pound, the Australian Pound, and regional currencies issued by private banks. The introduction of decimal currency in 1966 standardized Australia's monetary system, with the Dollar replacing the Pound at a fixed exchange rate. Over the years, the Australian Dollar's value has fluctuated in response to domestic and global economic conditions, including changes in commodity prices, interest rates, and trade dynamics. Australia's strong economy, abundant natural resources, and stable political environment have contributed to the Dollar's status as one of the world's major currencies. Today, the Australian Dollar is widely used in domestic and international transactions, supported by a well-developed financial system and robust regulatory framework."
+        },
+        {
+            "code": "AWG",
+            "rate_to_usd": 1.79,
+            "country": "Aruba",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Aruban Florin (AWG) has its roots in Dutch colonial history in the Caribbean. Introduced in 1986, the Florin replaced the Netherlands Antillean Guilder (ANG) as Aruba's official currency after the country seceded from the Netherlands Antilles. The Florin is pegged to the US Dollar at a fixed exchange rate, providing stability and facilitating trade and tourism. Aruba's economy relies heavily on tourism, with the Florin playing a crucial role in the island's commerce and financial transactions. Despite its small size, Aruba boasts a well-developed financial sector and a high standard of living, supported by its status as an autonomous territory within the Kingdom of the Netherlands. Today, the Aruban Florin is used alongside the US Dollar in everyday transactions, with both currencies widely accepted across the island."
+        },
+        {
+            "code": "AZN",
+            "rate_to_usd": 1.7,
+            "country": "Azerbaijan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Azerbaijani Manat (AZN) has a relatively recent history, dating back to the early 1990s after Azerbaijan gained independence from the Soviet Union. Initially, the Russian Ruble continued to circulate in the country, but in 1992, the Azerbaijani Manat was introduced as the official currency. The Manat underwent significant devaluation during the economic transition period, leading to instability and inflation. In response, Azerbaijan implemented currency reforms and stabilization measures to restore confidence in the Manat. Pegged to the US Dollar since 2001, the Manat has maintained relative stability compared to its volatile early years. Today, the Manat is the official currency of Azerbaijan, used in domestic and international transactions, supported by a growing economy driven by oil and gas exports."
+        },
+        {
+            "code": "BAM",
+            "rate_to_usd": 1.79,
+            "country": "Bosnia and Herzegovina",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Bosnia and Herzegovina Convertible Mark (BAM) has been the official currency of Bosnia and Herzegovina since the mid-1990s. Following the breakup of Yugoslavia and the Bosnian War, the country established its own currency to replace the Yugoslav dinar. The Convertible Mark was introduced as a temporary solution to stabilize the economy and facilitate international trade. Pegged to the Deutsche Mark initially, and later to the Euro, the Convertible Mark has maintained stability despite political and economic challenges in the region. Today, the BAM is used in everyday transactions across Bosnia and Herzegovina, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "BBD",
+            "rate_to_usd": 2,
+            "country": "Barbados",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Barbadian Dollar (BBD) has been the official currency of Barbados since 1973, replacing the East Caribbean dollar. The Barbadian Dollar is pegged to the US Dollar at a fixed exchange rate, providing stability to the country's economy. Barbados, known for its tourism industry and offshore financial sector, relies heavily on the stability of its currency to attract investment and maintain confidence in the economy. Despite challenges such as high public debt and vulnerability to natural disasters, the Barbadian Dollar remains an integral part of everyday life on the island, used in transactions ranging from groceries to real estate."
+        },
+        {
+            "code": "BDT",
+            "rate_to_usd": 109.56,
+            "country": "Bangladesh",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Bangladeshi Taka (BDT) has been the official currency of Bangladesh since the country's independence in 1971. The Taka replaced the Pakistani rupee as the national currency. Over the years, Bangladesh has experienced economic growth and development, driven by industries such as textiles, agriculture, and remittances from overseas workers. Despite challenges such as poverty and political instability, the Taka has remained relatively stable. Today, the Taka is widely used in Bangladesh for both domestic and international transactions, supported by a well-established banking system and prudent monetary policy."
+        },
+        {
+            "code": "BGN",
+            "rate_to_usd": 2.28,
+            "country": "Bulgaria",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Bulgarian Lev (BGN) has been the official currency of Bulgaria since 1881, making it one of the oldest currencies in Europe. The Lev has undergone several reforms and changes in value throughout its history, including a redenomination in 1952. Following the collapse of the Soviet Union, Bulgaria transitioned to a market economy, implementing currency reforms to stabilize the Lev and promote economic growth. Today, the Lev is pegged to the Euro as part of Bulgaria's efforts to join the European Union and adopt the Euro in the future. Despite challenges such as corruption and organized crime, the Lev remains a symbol of Bulgaria's economic resilience and stability."
+        },
+        {
+            "code": "BHD",
+            "rate_to_usd": 0.479,
+            "country": "Bahrain",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Bahraini Dinar (BHD) has been the official currency of Bahrain since 1965, replacing the Gulf Rupee. The Dinar is one of the highest-valued currencies in the world, thanks to Bahrain's oil wealth and prudent fiscal policies. Bahrain, a small island nation in the Persian Gulf, has diversified its economy beyond oil, with industries such as finance, tourism, and manufacturing contributing to economic growth. The Dinar's stability and convertibility have made it a preferred currency for international trade and investment in the region. Despite political tensions and social unrest, the Bahraini Dinar remains a symbol of Bahrain's economic prosperity and stability."
+        },
+        {
+            "code": "BIF",
+            "rate_to_usd": 3630.48,
+            "country": "Burundi",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Burundian Franc (BIF) has been the official currency of Burundi since the country's independence from Belgium in 1962. The Franc replaced the Belgian Congo franc as the national currency. Burundi, located in the African Great Lakes region, has faced political instability and civil conflict, which have hindered economic development and contributed to currency devaluation. Despite challenges such as poverty and food insecurity, the Burundian Franc remains the primary medium of exchange in Burundi, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "BMD",
+            "rate_to_usd": 1.27,
+            "country": "Bermuda",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Bermudian Dollar (BMD) has been the official currency of Bermuda since 1970, replacing the Bermudian pound. The Bermudian Dollar is pegged to the US Dollar at a fixed exchange rate, providing stability to the island's economy, which relies heavily on tourism and international business. Bermuda, known for its picturesque beaches and offshore financial sector, has one of the highest per capita incomes in the world. The Bermudian Dollar is widely accepted in Bermuda for both domestic and international transactions, supported by a well-regulated financial system and prudent fiscal policies."
+        },
+        {
+            "code": "BND",
+            "rate_to_usd": 1.7,
+            "country": "Brunei Darussalam",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Brunei Dollar (BND) has been the official currency of Brunei Darussalam since 1967, replacing the Malayan dollar. Brunei, a small Southeast Asian nation on the island of Borneo, is one of the wealthiest countries in the world due to its abundant oil and gas reserves. The Brunei Dollar is pegged to the Singapore Dollar at a fixed exchange rate, providing stability to the country's economy. Despite its small size and population, Brunei enjoys a high standard of living and provides generous social welfare benefits to its citizens. The Brunei Dollar is widely accepted in Brunei for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "BOB",
+            "rate_to_usd": 8.75,
+            "country": "Bolivia",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Bolivian Boliviano (BOB) has been the official currency of Bolivia since 1987, replacing the Bolivian peso. The Boliviano is named after Simón Bolívar, the South American revolutionary leader who played a key role in the region's struggle for independence from Spain. Bolivia, a landlocked country in South America, has a diverse economy based on agriculture, mining, and natural gas production. Despite challenges such as poverty and political instability, the Bolivian Boliviano remains the primary medium of exchange in Bolivia, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "BRL",
+            "rate_to_usd": 6.2,
+            "country": "Brazil",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Brazilian Real (BRL) has been the official currency of Brazil since 1994, replacing the Brazilian cruzeiro. The Real was introduced as part of Brazil's economic stabilization plan to control hyperinflation and promote economic growth. Brazil, the largest country in South America, has a diverse economy based on agriculture, industry, and services. Despite challenges such as income inequality and political corruption, the Real has remained relatively stable compared to previous currencies. Today, the Real is widely used in Brazil for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "BSD",
+            "rate_to_usd": 1.27,
+            "country": "Bahamas",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Bahamian Dollar (BSD) has been the official currency of the Bahamas since 1966, replacing the British pound. The Bahamian Dollar is pegged to the US Dollar at a fixed exchange rate, providing stability to the country's tourism-dependent economy. The Bahamas, an archipelago in the Caribbean known for its pristine beaches and offshore financial sector, relies heavily on the stability of its currency to attract tourists and investors. The Bahamian Dollar is widely accepted in the Bahamas for both domestic and international transactions, supported by a well-regulated financial system and prudent fiscal policies."
+        },
+        {
+            "code": "BTN",
+            "rate_to_usd": 105.68,
+            "country": "Bhutan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Bhutanese Ngultrum (BTN) has been the official currency of Bhutan since 1974, replacing the Indian rupee. The Ngultrum is pegged to the Indian rupee at a fixed exchange rate, reflecting Bhutan's close economic ties with India. Bhutan, a small landlocked country in the Himalayas, has prioritized Gross National Happiness over Gross Domestic Product as a measure of progress and development. Despite challenges such as poverty and environmental degradation, the Ngultrum remains the primary medium of exchange in Bhutan, used in everyday transactions ranging from groceries to healthcare."
+        },
+        {
+            "code": "BWP",
+            "rate_to_usd": 17.33,
+            "country": "Botswana",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Botswana Pula (BWP) has been the official currency of Botswana since 1976, replacing the South African rand. The Pula is named after the Setswana word for rain, symbolizing prosperity and abundance in the country. Botswana, located in Southern Africa, has a stable and diversified economy based on diamond mining, tourism, and agriculture. Despite challenges such as HIV/AIDS and income inequality, the Pula has remained relatively stable compared to other currencies in the region. Today, the Pula is widely used in Botswana for both domestic and international transactions, supported by a well-developed banking system and prudent fiscal policies."
+        },
+        {
+            "code": "BYN",
+            "rate_to_usd": 4.1,
+            "country": "Belarus",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Belarusian Ruble (BYN) has been the official currency of Belarus since 2016, replacing the Belarusian ruble. The Ruble is named after the currency used in the Russian Empire and the Soviet Union. Belarus, a landlocked country in Eastern Europe, has a state-dominated economy with heavy reliance on subsidies from Russia. Despite challenges such as political repression and economic stagnation, the Ruble remains the primary medium of exchange in Belarus, used in everyday transactions ranging from groceries to utilities."
+        },
+        {
+            "code": "BZD",
+            "rate_to_usd": 2.55,
+            "country": "Belize",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Belize Dollar (BZD) has been the official currency of Belize since 1973, replacing the British Honduran dollar. The Belize Dollar is pegged to the US Dollar at a fixed exchange rate, providing stability to the country's tourism-dependent economy. Belize, located on the eastern coast of Central America, is known for its diverse culture, tropical climate, and rich biodiversity. The Belize Dollar is widely accepted in Belize for both domestic and international transactions, supported by a well-regulated financial system and prudent fiscal policies."
+        },
+        {
+            "code": "CAD",
+            "rate_to_usd": 1.71,
+            "country": "Canada",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Canadian Dollar (CAD) has been the official currency of Canada since 1858, replacing the Canadian pound. The Canadian Dollar is known for its stability and reliability, making it one of the world's major reserve currencies. Canada, the second-largest country in the world by land area, has a diverse economy based on natural resources, manufacturing, and services. Despite challenges such as climate change and income inequality, the Canadian Dollar remains an integral part of everyday life in Canada, used in transactions ranging from groceries to real estate."
+        },
+        {
+            "code": "CDF",
+            "rate_to_usd": 3500.82,
+            "country": "Democratic Republic of the Congo",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Congolese Franc (CDF) has been the official currency of the Democratic Republic of the Congo since 1997, replacing the New Zaire. The Franc replaced the Zaire at a rate of one million to one, reflecting the hyperinflation and economic instability that plagued the country under Mobutu Sese Seko's rule. The Democratic Republic of the Congo, located in Central Africa, has vast natural resources, including minerals, forests, and hydroelectric power. Despite challenges such as political corruption and armed conflict, the Franc remains the primary medium of exchange in the Democratic Republic of the Congo, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "CHF",
+            "rate_to_usd": 1.09,
+            "country": "Switzerland",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Swiss Franc (CHF) has been the official currency of Switzerland since 1850, replacing various regional currencies. The Franc is known for its stability and neutrality, making it a safe haven for investors during times of economic uncertainty. Switzerland, located in Central Europe, has a highly developed and diversified economy based on finance, manufacturing, and tourism. Despite challenges such as income inequality and currency appreciation, the Swiss Franc remains one of the world's most trusted currencies, used in transactions ranging from groceries to luxury goods."
+        },
+        {
+            "code": "CLP",
+            "rate_to_usd": 1161.45,
+            "country": "Chile",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Chilean Peso (CLP) has been the official currency of Chile since 1975, replacing the Chilean escudo. The Peso is named after the Spanish word for weight, symbolizing the country's economic stability and prosperity. Chile, a long and narrow country in South America, has a diverse economy based on copper mining, agriculture, and tourism. Despite challenges such as political unrest and natural disasters, the Peso has remained relatively stable compared to other currencies in the region. Today, the Peso is widely used in Chile for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "CNY",
+            "rate_to_usd": 9.15,
+            "country": "China",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Chinese Yuan Renminbi (CNY) has been the official currency of China since 1949, replacing the Chinese yuan. The Renminbi is issued by the People's Bank of China and is controlled by the Chinese government. China, the world's most populous country, has the second-largest economy by nominal GDP and is a global economic powerhouse. Despite challenges such as income inequality and environmental degradation, the Renminbi has become increasingly important in international trade and finance. Today, the Renminbi is widely used in China for both domestic and international transactions, supported by a well-regulated financial system and prudent monetary policy."
+        },
+        {
+            "code": "COP",
+            "rate_to_usd": 5059.9,
+            "country": "Colombia",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Colombian Peso (COP) has been the official currency of Colombia since 1837, replacing the Colombian real. The Peso is named after the Spanish word for weight, symbolizing the country's economic stability and prosperity. Colombia, located in northern South America, has a diverse economy based on agriculture, manufacturing, and mining. Despite challenges such as political unrest and drug trafficking, the Peso has remained relatively stable compared to other currencies in the region. Today, the Peso is widely used in Colombia for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "CRC",
+            "rate_to_usd": 661.3,
+            "country": "Costa Rica",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Costa Rican Colón (CRC) has been the official currency of Costa Rica since 1896, replacing the Costa Rican peso. The Colón is named after Christopher Columbus, the Italian explorer who first landed in Costa Rica during his fourth voyage to the Americas. Costa Rica, located in Central America, has a stable and diversified economy based on tourism, agriculture, and technology. Despite challenges such as income inequality and environmental degradation, the Colón has remained relatively stable compared to other currencies in the region. Today, the Colón is widely used in Costa Rica for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "CUP",
+            "rate_to_usd": 30.6,
+            "country": "Cuba",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Cuban Peso (CUP) has been the official currency of Cuba since 1857, replacing the Spanish real. The Peso is issued by the Central Bank of Cuba and is controlled by the Cuban government. Cuba, located in the Caribbean, has a state-dominated economy based on agriculture, tourism, and remittances from overseas Cubans. Despite challenges such as political isolation and US sanctions, the Peso has remained the primary medium of exchange in Cuba, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "CVE",
+            "rate_to_usd": 128.34,
+            "country": "Cape Verde",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Cape Verdean Escudo (CVE) has been the official currency of Cape Verde since 1914, replacing the Portuguese real. The Escudo is named after the Portuguese word for shield, symbolizing Cape Verde's independence and sovereignty. Cape Verde, an archipelago off the coast of West Africa, has a small and open economy based on tourism, fishing, and remittances from overseas Cape Verdeans. Despite challenges such as poverty and climate change, the Escudo has remained the primary medium of exchange in Cape Verde, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "CZK",
+            "rate_to_usd": 28.69,
+            "country": "Czech Republic",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Czech Koruna (CZK) has been the official currency of the Czech Republic since 1993, replacing the Czechoslovak koruna. The Koruna is issued by the Czech National Bank and is controlled by the Czech government. The Czech Republic, located in Central Europe, has a highly developed and diversified economy based on manufacturing, services, and tourism. Despite challenges such as income inequality and political corruption, the Koruna has remained relatively stable compared to other currencies in the region. Today, the Koruna is widely used in the Czech Republic for both domestic and international transactions, supported by a well-regulated financial system and prudent monetary policy."
+        },
+        {
+            "code": "DJF",
+            "rate_to_usd": 226.59,
+            "country": "Djibouti",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Djiboutian Franc (DJF) has been the official currency of Djibouti since 1949, replacing the French franc. The Franc is issued by the Central Bank of Djibouti and is controlled by the Djiboutian government. Djibouti, located in the Horn of Africa, has a small and open economy based on port services, logistics, and remittances from overseas Djiboutians. Despite challenges such as poverty and political instability, the Franc has remained the primary medium of exchange in Djibouti, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "DKK",
+            "rate_to_usd": 8.68,
+            "country": "Denmark",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Danish Krone (DKK) has been the official currency of Denmark since 1873, replacing the Danish rigsdaler. The Krone is issued by the Danmarks Nationalbank and is controlled by the Danish government. Denmark, located in Northern Europe, has a highly developed and diversified economy based on manufacturing, services, and renewable energy. Despite challenges such as income inequality and climate change, the Krone has remained relatively stable compared to other currencies in the region. Today, the Krone is widely used in Denmark for both domestic and international transactions, supported by a well-regulated financial system and prudent monetary policy."
+        },
+        {
+            "code": "DOP",
+            "rate_to_usd": 73.44,
+            "country": "Dominican Republic",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Dominican Peso (DOP) has been the official currency of the Dominican Republic since 1844, replacing the Haitian gourde. The Peso is named after the Spanish word for weight, symbolizing the country's economic stability and prosperity. The Dominican Republic, located on the island of Hispaniola in the Caribbean, has a diverse economy based on agriculture, tourism, and manufacturing. Despite challenges such as political corruption and income inequality, the Peso has remained relatively stable compared to other currencies in the region. Today, the Peso is widely used in the Dominican Republic for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "DZD",
+            "rate_to_usd": 170.68,
+            "country": "Algeria",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Algerian Dinar (DZD) has been the official currency of Algeria since 1964, replacing the Algerian new franc. The Dinar is issued by the Bank of Algeria and is controlled by the Algerian government. Algeria, located in North Africa, has a predominantly state-controlled economy based on oil and gas production. Despite challenges such as political unrest and income inequality, the Dinar has remained the primary medium of exchange in Algeria, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "EGP",
+            "rate_to_usd": 39.3,
+            "country": "Egypt",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Egyptian Pound (EGP) has been the official currency of Egypt since 1834, replacing the Ottoman piastre. The Pound is issued by the Central Bank of Egypt and is controlled by the Egyptian government. Egypt, located in North Africa, has a diverse economy based on agriculture, tourism, and manufacturing. Despite challenges such as political unrest and social instability, the Pound has remained relatively stable compared to other currencies in the region. Today, the Pound is widely used in Egypt for both domestic and international transactions, supported by a well-developed banking system and prudent monetary policy."
+        },
+        {
+            "code": "ERN",
+            "rate_to_usd": 19.12,
+            "country": "Eritrea",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Eritrean Nakfa (ERN) has been the official currency of Eritrea since 1997, replacing the Ethiopian birr. The Nakfa is named after the town of Nakfa, which served as the headquarters of the Eritrean independence movement during the country's struggle for independence from Ethiopia. Eritrea, located in the Horn of Africa, has a largely agrarian economy based on subsistence farming and animal husbandry. Despite challenges such as political isolation and human rights abuses, the Nakfa remains the primary medium of exchange in Eritrea, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "ETB",
+            "rate_to_usd": 70.22,
+            "country": "Ethiopia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Ethiopian Birr (ETB) has been the official currency of Ethiopia since 1945, replacing the Ethiopian Maria Theresa thaler. The Birr is issued by the National Bank of Ethiopia and is controlled by the Ethiopian government. Ethiopia, located in the Horn of Africa, has a predominantly agrarian economy based on subsistence farming and coffee production. Despite challenges such as poverty and political instability, the Birr has remained the primary medium of exchange in Ethiopia, used in everyday transactions ranging from groceries to transportation."
+        },
+        {
+            "code": "EUR",
+            "rate_to_usd": 1.16,
+            "country": "Eurozone",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Euro (EUR) has been the official currency of the Eurozone since 1999, replacing the national currencies of participating European Union (EU) member states. The Euro is issued by the European Central Bank and is controlled by the Eurozone countries collectively. The Eurozone, consisting of 19 of the 27 EU member states, has a highly integrated and diversified economy based on manufacturing, services, and finance. Despite challenges such as sovereign debt crises and political tensions, the Euro has become one of the world's major reserve currencies. Today, the Euro is widely used in the Eurozone for both domestic and international transactions, supported by a well-regulated financial system and prudent monetary policy."
+        },
+        {
+            "code": "FJD",
+            "rate_to_usd": 2.82,
+            "country": "Fiji",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Fijian dollar has been the currency of Fiji since 1969 when it replaced the Fijian pound. It was initially pegged to the British pound but has been freely floating since 1987. The currency has undergone various changes in design over the years, reflecting Fiji's cultural heritage and natural beauty. Today, the Fijian dollar is used for all transactions within the country and is available in both coins and banknotes."
+        },
+        {
+            "code": "FKP",
+            "rate_to_usd": 1,
+            "country": "Falkland Islands",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Falkland Islands pound has been the currency of the Falkland Islands since 1833. It is pegged at par to the British pound and is issued locally by the Falkland Islands Government. Historically, the currency has been an integral part of the Falkland Islands' economy, supporting its growth and development. The Falkland Islands pound is used for all transactions within the territory, and its stability contributes to the overall economic stability of the region."
+        },
+        {
+            "code": "FOK",
+            "rate_to_usd": 8.68,
+            "country": "Faroe Islands",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Faroese króna has been the currency of the Faroe Islands since 1940. It is issued by the Danish National Bank and is pegged at par to the Danish krone. The currency plays a crucial role in the economy of the Faroe Islands, facilitating trade and commerce both domestically and internationally. The Faroese króna is widely accepted throughout the islands and is available in both coins and banknotes."
+        },
+        {
+            "code": "GEL",
+            "rate_to_usd": 3.41,
+            "country": "Georgia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Georgian lari has been the official currency of Georgia since 1995, replacing the Soviet ruble. It is named after a traditional Georgian metalworking coin. Since its introduction, the lari has undergone several reforms to stabilize its value and boost confidence in the currency. Today, the Georgian lari is widely used for all transactions within the country and is available in both coins and banknotes."
+        },
+        {
+            "code": "GGP",
+            "rate_to_usd": 1,
+            "country": "Guernsey",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Guernsey pound has been the currency of Guernsey since 1921. It is issued by the States of Guernsey and is pegged at par to the British pound sterling. The currency plays a vital role in the economy of Guernsey, supporting its financial services sector and facilitating trade with the United Kingdom and other countries. The Guernsey pound is widely accepted throughout the island and is available in both coins and banknotes."
+        },
+        {
+            "code": "GHS",
+            "rate_to_usd": 15.37,
+            "country": "Ghana",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Ghanaian cedi has been the currency of Ghana since 1965, replacing the Ghanaian pound. It has undergone several redenominations to manage inflation and stabilize its value. The cedi is issued by the Bank of Ghana and is used for all transactions within the country. It is available in both coins and banknotes, reflecting Ghana's rich cultural heritage and history."
+        },
+        {
+            "code": "GIP",
+            "rate_to_usd": 1,
+            "country": "Gibraltar",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Gibraltar pound has been the currency of Gibraltar since 1927. It is issued by the Government of Gibraltar and is pegged at par to the British pound sterling. The currency is an integral part of Gibraltar's economy, supporting its financial services sector and facilitating trade with the United Kingdom and other countries. The Gibraltar pound is widely accepted throughout the territory and is available in both coins and banknotes."
+        },
+        {
+            "code": "GMD",
+            "rate_to_usd": 81.92,
+            "country": "Gambia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Gambian dalasi has been the currency of the Gambia since 1971, replacing the Gambian pound. It is issued by the Central Bank of the Gambia and is used for all transactions within the country. The dalasi plays a vital role in the Gambian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the country's cultural heritage and history."
+        },
+        {
+            "code": "GNF",
+            "rate_to_usd": 10946.17,
+            "country": "Guinea",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Guinean franc has been the currency of Guinea since 1959, replacing the Guinean pound. It is issued by the Central Bank of the Republic of Guinea and is used for all transactions within the country. The franc plays a crucial role in the economy of Guinea, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Guinea's cultural heritage and history."
+        },
+        {
+            "code": "GTQ",
+            "rate_to_usd": 9.88,
+            "country": "Guatemala",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Guatemalan quetzal has been the currency of Guatemala since 1925, replacing the Central American peso. It is named after the national bird of Guatemala, the resplendent quetzal. The currency has undergone several reforms to stabilize its value and boost confidence in the economy. Today, the quetzal is widely used for all transactions within the country and is available in both coins and banknotes."
+        },
+        {
+            "code": "GYD",
+            "rate_to_usd": 267.09,
+            "country": "Guyana",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Guyanese dollar has been the currency of Guyana since 1839. It is issued by the Bank of Guyana and is used for all transactions within the country. The currency plays a vital role in the economy of Guyana, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Guyana's cultural heritage and history."
+        },
+        {
+            "code": "HKD",
+            "rate_to_usd": 9.97,
+            "country": "Hong Kong",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Hong Kong dollar has been the currency of Hong Kong since 1935. It is issued by three banks authorized to print currency in Hong Kong. The currency is pegged to the US dollar within a narrow band. The Hong Kong dollar is widely used for all transactions within the territory and is available in both coins and banknotes, reflecting Hong Kong's status as a global financial center."
+        },
+        {
+            "code": "HNL",
+            "rate_to_usd": 31.16,
+            "country": "Honduras",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Honduran lempira has been the currency of Honduras since 1931, replacing the Honduran peso. It is named after a 16th-century indigenous leader who led resistance against Spanish colonization. The currency has undergone several reforms to stabilize its value and boost confidence in the economy. Today, the lempira is widely used for all transactions within the country and is available in both coins and banknotes."
+        },
+        {
+            "code": "HRK",
+            "rate_to_usd": 8.77,
+            "country": "Croatia",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Croatian kuna has been the currency of Croatia since 1994, replacing the Croatian dinar. It is issued by the Croatian National Bank and is used for all transactions within the country. The kuna plays a vital role in the Croatian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Croatia's cultural heritage and history."
+        },
+        {
+            "code": "HTG",
+            "rate_to_usd": 169.81,
+            "country": "Haiti",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Haitian gourde has been the currency of Haiti since 1813. It is named after a famous African revolutionary leader who played a key role in Haiti's struggle for independence. The currency has undergone several reforms to stabilize its value and boost confidence in the economy. Today, the gourde is widely used for all transactions within the country and is available in both coins and banknotes."
+        },
+        {
+            "code": "HUF",
+            "rate_to_usd": 441.07,
+            "country": "Hungary",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Hungarian forint has been the currency of Hungary since 1946, replacing the Hungarian pengő. It is issued by the Hungarian National Bank and is used for all transactions within the country. The forint plays a crucial role in the Hungarian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Hungary's rich cultural heritage and history."
+        },
+        {
+            "code": "IDR",
+            "rate_to_usd": 19829.54,
+            "country": "Indonesia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Indonesian rupiah has been the currency of Indonesia since 1946, replacing the Dutch East Indies guilder. It is issued by the Bank Indonesia and is used for all transactions within the country. The rupiah plays a significant role in the Indonesian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Indonesia's diverse culture and history."
+        },
+        {
+            "code": "ILS",
+            "rate_to_usd": 4.76,
+            "country": "Israel",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Israeli new shekel has been the currency of Israel since 1986, replacing the Israeli shekel. It is issued by the Bank of Israel and is used for all transactions within the country. The new shekel plays a vital role in the Israeli economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Israel's rich cultural heritage and history."
+        },
+        {
+            "code": "IMP",
+            "rate_to_usd": 1,
+            "country": "Isle of Man",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Manx pound has been the currency of the Isle of Man since 1961, replacing the Isle of Man pound. It is issued by the Isle of Man Government and is used for all transactions within the territory. The Manx pound plays a vital role in the Isle of Man's economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the island's cultural heritage and history."
+        },
+        {
+            "code": "INR",
+            "rate_to_usd": 105.68,
+            "country": "India",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Indian rupee has been the currency of India since ancient times. It is issued by the Reserve Bank of India and is used for all transactions within the country. The rupee plays a crucial role in the Indian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting India's diverse culture and history."
+        },
+        {
+            "code": "IQD",
+            "rate_to_usd": 1675.61,
+            "country": "Iraq",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Iraqi dinar has been the currency of Iraq since 1932, replacing the Indian rupee. It is issued by the Central Bank of Iraq and is used for all transactions within the country. The dinar plays a vital role in the Iraqi economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Iraq's rich cultural heritage and history."
+        },
+        {
+            "code": "IRR",
+            "rate_to_usd": 53785.84,
+            "country": "Iran",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Iranian rial has been the currency of Iran since the 18th century. It is issued by the Central Bank of the Islamic Republic of Iran and is used for all transactions within the country. The rial plays a crucial role in the Iranian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Iran's long history and cultural significance."
+        },
+        {
+            "code": "ISK",
+            "rate_to_usd": 174.75,
+            "country": "Iceland",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Icelandic króna has been the currency of Iceland since 1885, replacing the Danish krone. It is issued by the Central Bank of Iceland and is used for all transactions within the country. The króna plays a significant role in the Icelandic economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Iceland's unique culture and history."
+        },
+        {
+            "code": "JMD",
+            "rate_to_usd": 196.88,
+            "country": "Jamaica",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Jamaican dollar has been the currency of Jamaica since 1969, replacing the Jamaican pound. It is issued by the Bank of Jamaica and is used for all transactions within the country. The dollar plays a crucial role in the Jamaican economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Jamaica's vibrant culture and history."
+        },
+        {
+            "code": "JPY",
+            "rate_to_usd": 184.79,
+            "country": "Japan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Japanese yen has been the currency of Japan since the Meiji Restoration in 1868. It is issued by the Bank of Japan and is used for all transactions within the country. The yen plays a crucial role in the Japanese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Japan's rich cultural heritage and history."
+        },
+        {
+            "code": "JEP",
+            "rate_to_usd": 1,
+            "country": "Jersey",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Jersey pound has been the currency of Jersey since 1834, replacing the Jersey livre. It is issued by the States of Jersey and is used for all transactions within the territory. The pound plays a vital role in Jersey's economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the island's cultural heritage and history."
+        },
+        {
+            "code": "JOD",
+            "rate_to_usd": 0.904,
+            "country": "Jordan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Jordanian dinar has been the currency of Jordan since 1950, replacing the Palestinian pound. It is issued by the Central Bank of Jordan and is used for all transactions within the country. The dinar plays a vital role in Jordan's economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Jordan's rich cultural heritage and history."
+        },
+        {
+            "code": "KES",
+            "rate_to_usd": 202.8,
+            "country": "Kenya",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Kenyan shilling has been the official currency of Kenya since independence in 1966. It is issued by the Central Bank of Kenya and is used for all transactions within the country. The shilling plays a crucial role in the Kenyan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Kenya's diverse culture and history."
+        },
+        {
+            "code": "KGS",
+            "rate_to_usd": 113.86,
+            "country": "Kyrgyzstan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Kyrgyzstani som has been the official currency of Kyrgyzstan since 1993, following the breakup of the Soviet Union. It is issued by the National Bank of the Kyrgyz Republic and is used for all transactions within the country. The som plays a vital role in the Kyrgyz economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Kyrgyzstan's rich cultural heritage and history."
+        },
+        {
+            "code": "KHR",
+            "rate_to_usd": 5227.89,
+            "country": "Cambodia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Cambodian riel has been the official currency of Cambodia since 1955. It is issued by the National Bank of Cambodia and is used for all transactions within the country. The riel plays a crucial role in the Cambodian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Cambodia's rich cultural heritage and history."
+        },
+        {
+            "code": "KID",
+            "rate_to_usd": 1.91,
+            "country": "Kiribati",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Kiribati dollar has been the official currency of Kiribati since 1979, replacing the Australian dollar. It is issued by the Reserve Bank of Kiribati and is used for all transactions within the country. The dollar plays a crucial role in the Kiribati economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Kiribati's unique culture and history."
+        },
+        {
+            "code": "KMF",
+            "rate_to_usd": 572.61,
+            "country": "Comoros",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Comorian franc has been the official currency of Comoros since 1912, replacing the French franc. It is issued by the Central Bank of the Comoros and is used for all transactions within the country. The franc plays a crucial role in the Comorian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Comoros' rich cultural heritage and history."
+        },
+        {
+            "code": "KRW",
+            "rate_to_usd": 1672.72,
+            "country": "South Korea",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The South Korean won has been the official currency of South Korea since 1902. It is issued by the Bank of Korea and is used for all transactions within the country. The won plays a crucial role in the South Korean economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting South Korea's dynamic culture and history."
+        },
+        {
+            "code": "KWD",
+            "rate_to_usd": 0.39,
+            "country": "Kuwait",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Kuwaiti dinar has been the official currency of Kuwait since 1960. It is issued by the Central Bank of Kuwait and is used for all transactions within the country. The dinar plays a crucial role in the Kuwaiti economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Kuwait's rich cultural heritage and history."
+        },
+        {
+            "code": "KYD",
+            "rate_to_usd": 1.06,
+            "country": "Cayman Islands",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Cayman Islands dollar has been the official currency of the Cayman Islands since 1972. It is issued by the Cayman Islands Monetary Authority and is used for all transactions within the territory. The dollar plays a crucial role in the Cayman Islands' economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the territory's unique culture and history."
+        },
+        {
+            "code": "KZT",
+            "rate_to_usd": 576.9,
+            "country": "Kazakhstan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Kazakhstani tenge has been the official currency of Kazakhstan since 1993, following the breakup of the Soviet Union. It is issued by the National Bank of Kazakhstan and is used for all transactions within the country. The tenge plays a crucial role in the Kazakh economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Kazakhstan's rich cultural heritage and history."
+        },
+        {
+            "code": "LAK",
+            "rate_to_usd": 25933.31,
+            "country": "Laos",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Laotian kip has been the official currency of Laos since 1952. It is issued by the Bank of the Lao P.D.R. and is used for all transactions within the country. The kip plays a crucial role in the Laotian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Laos' rich cultural heritage and history."
+        },
+        {
+            "code": "LBP",
+            "rate_to_usd": 19124.73,
+            "country": "Lebanon",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Lebanese pound has been the official currency of Lebanon since 1939. It is issued by the Banque du Liban and is used for all transactions within the country. The pound plays a crucial role in the Lebanese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Lebanon's diverse culture and history."
+        },
+        {
+            "code": "LKR",
+            "rate_to_usd": 409.83,
+            "country": "Sri Lanka",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Sri Lankan rupee has been the official currency of Sri Lanka since 1872. It is issued by the Central Bank of Sri Lanka and is used for all transactions within the country. The rupee plays a crucial role in the Sri Lankan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Sri Lanka's rich cultural heritage and history."
+        },
+        {
+            "code": "LRD",
+            "rate_to_usd": 241.67,
+            "country": "Liberia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Liberian dollar has been the official currency of Liberia since 1943. It is issued by the Central Bank of Liberia and is used for all transactions within the country. The dollar plays a crucial role in the Liberian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Liberia's diverse culture and history."
+        },
+        {
+            "code": "LSL",
+            "rate_to_usd": 23.77,
+            "country": "Lesotho",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Lesotho loti has been the official currency of Lesotho since 1966, replacing the South African rand. It is issued by the Central Bank of Lesotho and is used for all transactions within the country. The loti plays a crucial role in the Lesotho economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Lesotho's unique culture and history."
+        },
+        {
+            "code": "LYD",
+            "rate_to_usd": 6.13,
+            "country": "Libya",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Libyan dinar has been the official currency of Libya since 1971. It is issued by the Central Bank of Libya and is used for all transactions within the country. The dinar plays a crucial role in the Libyan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Libya's rich cultural heritage and history."
+        },
+        {
+            "code": "MAD",
+            "rate_to_usd": 12.7,
+            "country": "Morocco",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Moroccan dirham has been the official currency of Morocco since 1960. It is issued by the Bank Al-Maghrib and is used for all transactions within the country. The dirham plays a crucial role in the Moroccan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Morocco's rich cultural heritage and history."
+        },
+        {
+            "code": "MDL",
+            "rate_to_usd": 22.59,
+            "country": "Moldova",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Moldovan leu has been the official currency of Moldova since 1993. It is issued by the National Bank of Moldova and is used for all transactions within the country. The leu plays a crucial role in the Moldovan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Moldova's rich cultural heritage and history."
+        },
+        {
+            "code": "MGA",
+            "rate_to_usd": 5854.84,
+            "country": "Madagascar",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Malagasy ariary has been the official currency of Madagascar since 2005. It is issued by the Central Bank of Madagascar and is used for all transactions within the country. The ariary plays a crucial role in the Malagasy economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Madagascar's diverse culture and history."
+        },
+        {
+            "code": "MKD",
+            "rate_to_usd": 71.46,
+            "country": "North Macedonia",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Macedonian denar has been the official currency of North Macedonia since 1992, following the country's independence. It is issued by the National Bank of the Republic of North Macedonia and is used for all transactions within the country. The denar plays a crucial role in the Macedonian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting North Macedonia's rich cultural heritage and history."
+        },
+        {
+            "code": "MMK",
+            "rate_to_usd": 3681.48,
+            "country": "Myanmar",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Burmese kyat has been the official currency of Myanmar since 1952. It is issued by the Central Bank of Myanmar and is used for all transactions within the country. The kyat plays a crucial role in the Burmese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Myanmar's diverse culture and history."
+        },
+        {
+            "code": "MNT",
+            "rate_to_usd": 4400.39,
+            "country": "Mongolia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Mongolian tögrög has been the official currency of Mongolia since 1925. It is issued by the Bank of Mongolia and is used for all transactions within the country. The tögrög plays a crucial role in the Mongolian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Mongolia's rich cultural heritage and history."
+        },
+        {
+            "code": "MOP",
+            "rate_to_usd": 10.27,
+            "country": "Macau",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Macanese pataca has been the official currency of Macau since 1894. It is issued by the Monetary Authority of Macau and is used for all transactions within the territory. The pataca plays a crucial role in Macau's economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Macau's unique cultural heritage and history."
+        },
+        {
+            "code": "MRU",
+            "rate_to_usd": 50.5,
+            "country": "Mauritania",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Mauritanian ouguiya has been the official currency of Mauritania since 1973. It is issued by the Central Bank of Mauritania and is used for all transactions within the country. The ouguiya plays a crucial role in the Mauritanian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Mauritania's rich cultural heritage and history."
+        },
+        {
+            "code": "MUR",
+            "rate_to_usd": 56.09,
+            "country": "Mauritius",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Mauritian rupee has been the official currency of Mauritius since 1876. It is issued by the Bank of Mauritius and is used for all transactions within the country. The rupee plays a crucial role in the Mauritian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Mauritius' rich cultural heritage and history."
+        },
+        {
+            "code": "MVR",
+            "rate_to_usd": 19.51,
+            "country": "Maldives",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Maldivian rufiyaa has been the official currency of the Maldives since 1947. It is issued by the Maldives Monetary Authority and is used for all transactions within the country. The rufiyaa plays a crucial role in the Maldivian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the Maldives' rich cultural heritage and history."
+        },
+        {
+            "code": "MWK",
+            "rate_to_usd": 2164.59,
+            "country": "Malawi",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Malawian kwacha has been the official currency of Malawi since 1971. It is issued by the Reserve Bank of Malawi and is used for all transactions within the country. The kwacha plays a crucial role in the Malawian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Malawi's rich cultural heritage and history."
+        },
+        {
+            "code": "MXN",
+            "rate_to_usd": 21.51,
+            "country": "Mexico",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Mexican peso has been the official currency of Mexico since 1821. It is issued by the Bank of Mexico and is used for all transactions within the country. The peso plays a crucial role in the Mexican economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Mexico's rich cultural heritage and history."
+        },
+        {
+            "code": "MYR",
+            "rate_to_usd": 5.92,
+            "country": "Malaysia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Malaysian ringgit has been the official currency of Malaysia since 1967. It is issued by the Central Bank of Malaysia and is used for all transactions within the country. The ringgit plays a crucial role in the Malaysian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Malaysia's rich cultural heritage and history."
+        },
+        {
+            "code": "MZN",
+            "rate_to_usd": 81.5,
+            "country": "Mozambique",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Mozambican metical has been the official currency of Mozambique since 1980. It is issued by the Bank of Mozambique and is used for all transactions within the country. The metical plays a crucial role in the Mozambican economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Mozambique's rich cultural heritage and history."
+        },
+        {
+            "code": "NAD",
+            "rate_to_usd": 23.77,
+            "country": "Namibia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Namibian dollar has been the official currency of Namibia since 1993. It is issued by the Bank of Namibia and is used for all transactions within the country. The dollar plays a crucial role in the Namibian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Namibia's rich cultural heritage and history."
+        },
+        {
+            "code": "NGN",
+            "rate_to_usd": 1137.83,
+            "country": "Nigeria",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Nigerian naira has been the official currency of Nigeria since 1973. It is issued by the Central Bank of Nigeria and is used for all transactions within the country. The naira plays a crucial role in the Nigerian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Nigeria's rich cultural heritage and history."
+        },
+        {
+            "code": "NIO",
+            "rate_to_usd": 46.24,
+            "country": "Nicaragua",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Nicaraguan córdoba has been the official currency of Nicaragua since 1912. It is issued by the Central Bank of Nicaragua and is used for all transactions within the country. The córdoba plays a crucial role in the Nicaraguan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Nicaragua's rich cultural heritage and history."
+        },
+        {
+            "code": "NOK",
+            "rate_to_usd": 13.12,
+            "country": "Norway",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Norwegian krone has been the official currency of Norway since 1875. It is issued by Norges Bank and is used for all transactions within the country. The krone plays a crucial role in the Norwegian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Norway's rich cultural heritage and history."
+        },
+        {
+            "code": "NPR",
+            "rate_to_usd": 169.09,
+            "country": "Nepal",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Nepalese rupee has been the official currency of Nepal since the 1930s. It is issued by the Nepal Rastra Bank and is used for all transactions within the country. The rupee plays a crucial role in the Nepalese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Nepal's rich cultural heritage and history."
+        },
+        {
+            "code": "NZD",
+            "rate_to_usd": 2.04,
+            "country": "New Zealand",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The New Zealand dollar has been the official currency of New Zealand since 1967. It is issued by the Reserve Bank of New Zealand and is used for all transactions within the country. The dollar plays a crucial role in the New Zealand economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting New Zealand's rich cultural heritage and history."
+        },
+        {
+            "code": "OMR",
+            "rate_to_usd": 0.49,
+            "country": "Oman",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Omani rial has been the official currency of Oman since 1973. It is issued by the Central Bank of Oman and is used for all transactions within the country. The rial plays a crucial role in the Omani economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Oman's rich cultural heritage and history."
+        },
+        {
+            "code": "PAB",
+            "rate_to_usd": 1.27,
+            "country": "Panama",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Panamanian balboa has been the official currency of"
+        },
+        {
+            "code": "PEN",
+            "rate_to_usd": 4.71,
+            "country": "Peru",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Peruvian sol, introduced in 1991 to replace the inti, has become the official currency of Peru. It is issued by the Central Reserve Bank of Peru and is used for all transactions within the country. The sol plays a crucial role in the Peruvian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Peru's rich cultural heritage and history. The sol is named after the historic currency used in Peru during the Spanish colonial era, connecting the modern currency to the country's past."
+        },
+        {
+            "code": "PGK",
+            "rate_to_usd": 4.71,
+            "country": "Papua New Guinea",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Papua New Guinean kina has been the official currency of Papua New Guinea since 1975, replacing the Australian pound. It is issued by the Bank of Papua New Guinea and is used for all transactions within the country. The kina plays a crucial role in the Papua New Guinean economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Papua New Guinea's diverse cultural heritage and history."
+        },
+        {
+            "code": "PHP",
+            "rate_to_usd": 71.32,
+            "country": "Philippines",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Philippine peso has been the official currency of the Philippines since 1852. It is issued by the Bangko Sentral ng Pilipinas (Central Bank of the Philippines) and is used for all transactions within the country. The peso plays a crucial role in the Philippine economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the Philippines' diverse cultural heritage and history. The peso has undergone various changes throughout its history, including several reissues and changes in design, but it remains a symbol of Filipino identity and economic stability."
+        },
+        {
+            "code": "PKR",
+            "rate_to_usd": 357.14,
+            "country": "Pakistan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Pakistani rupee has been the official currency of Pakistan since 1948, when it replaced the Indian rupee. It is issued by the State Bank of Pakistan and is used for all transactions within the country. The rupee plays a crucial role in the Pakistani economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Pakistan's rich cultural heritage and history. The rupee has faced challenges, including inflation and exchange rate fluctuations, but it remains an integral part of Pakistan's economic infrastructure and national identity."
+        },
+        {
+            "code": "PLN",
+            "rate_to_usd": 5.07,
+            "country": "Poland",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Polish złoty has been the official currency of Poland since the Middle Ages. It is issued by the National Bank of Poland and is used for all transactions within the country. The złoty plays a crucial role in the Polish economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Poland's rich cultural heritage and history. The złoty has undergone numerous changes throughout its history, including revaluations and redesigns, but it remains a symbol of Polish sovereignty and economic stability."
+        },
+        {
+            "code": "PYG",
+            "rate_to_usd": 9273.39,
+            "country": "Paraguay",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Paraguayan guaraní has been the official currency of Paraguay since 1944, replacing the Paraguayan peso. It is issued by the Central Bank of Paraguay and is used for all transactions within the country. The guaraní plays a crucial role in the Paraguayan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Paraguay's rich cultural heritage and history. The guaraní has remained relatively stable despite economic challenges, serving as a symbol of Paraguayan independence and financial resilience."
+        },
+        {
+            "code": "QAR",
+            "rate_to_usd": 4.64,
+            "country": "Qatar",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Qatari riyal has been the official currency of Qatar since 1973, replacing the Gulf rupee. It is issued by the Qatar Central Bank and is used for all transactions within the country. The riyal plays a crucial role in the Qatari economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Qatar's modern development and economic prosperity. The riyal's stability and peg to the US dollar have contributed to Qatar's position as one of the wealthiest countries in the world."
+        },
+        {
+            "code": "RON",
+            "rate_to_usd": 5.79,
+            "country": "Romania",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Romanian leu has been the official currency of Romania since 1867, with various revaluations and changes in design throughout its history. It is issued by the National Bank of Romania and is used for all transactions within the country. The leu plays a crucial role in the Romanian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Romania's rich cultural heritage and history. The leu has faced challenges, including inflation and currency devaluations, but it remains a symbol of Romanian sovereignty and economic stability."
+        },
+        {
+            "code": "RSD",
+            "rate_to_usd": 136.31,
+            "country": "Serbia",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Serbian dinar has been the official currency of Serbia since 2003, following the dissolution of the Federal Republic of Yugoslavia. It is issued by the National Bank of Serbia and is used for all transactions within the country. The dinar plays a crucial role in the Serbian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Serbia's rich cultural heritage and history. The dinar's stability has contributed to Serbia's economic development and integration into the global economy."
+        },
+        {
+            "code": "RUB",
+            "rate_to_usd": 113.68,
+            "country": "Russia",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Russian ruble has been the official currency of Russia since the breakup of the Soviet Union in 1991. It is issued by the Bank of Russia and is used for all transactions within the country. The ruble plays a crucial role in the Russian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Russia's rich cultural heritage and history. The ruble has faced challenges, including inflation and exchange rate fluctuations, but it remains a symbol of Russian identity and economic strength."
+        },
+        {
+            "code": "RWF",
+            "rate_to_usd": 1677.41,
+            "country": "Rwanda",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Rwandan franc has been the official currency of Rwanda since 1964, replacing the Rwandan rupee. It is issued by the National Bank of Rwanda and is used for all transactions within the country. The franc plays a crucial role in the Rwandan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Rwanda's rich cultural heritage and history. Despite challenges such as inflation and economic instability, the franc remains a symbol of Rwandan sovereignty and economic development."
+        },
+        {
+            "code": "SAR",
+            "rate_to_usd": 4.78,
+            "country": "Saudi Arabia",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Saudi riyal has been the official currency of Saudi Arabia since the country was founded in 1932. It is issued by the Saudi Arabian Monetary Authority and is used for all transactions within the country. The riyal plays a crucial role in the Saudi Arabian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Saudi Arabia's rich cultural heritage and history. The riyal's stability has contributed to Saudi Arabia's position as a major economic power in the Middle East."
+        },
+        {
+            "code": "SBD",
+            "rate_to_usd": 10.7,
+            "country": "Solomon Islands",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Solomon Islands dollar has been the official currency of the Solomon Islands since 1977, replacing the Australian dollar. It is issued by the Central Bank of Solomon Islands and is used for all transactions within the country. The dollar plays a crucial role in the Solomon Islands' economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting the country's rich cultural heritage and history. The dollar's stability has contributed to the economic development of the Solomon Islands."
+        },
+        {
+            "code": "SCR",
+            "rate_to_usd": 16.92,
+            "country": "Seychelles",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Seychellois rupee has been the official currency of Seychelles since 1914, replacing the Mauritian rupee. It is issued by the Central Bank of Seychelles and is used for all transactions within the country. The rupee plays a crucial role in the Seychellois economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Seychelles' rich cultural heritage and history. The rupee's stability has contributed to Seychelles' position as a major tourist destination in the Indian Ocean."
+        },
+        {
+            "code": "SDG",
+            "rate_to_usd": 570.73,
+            "country": "Sudan",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Sudanese pound has been the official currency of Sudan since 1956, replacing the Egyptian pound. It is issued by the Central Bank of Sudan and is used for all transactions within the country. The pound plays a crucial role in the Sudanese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Sudan's rich cultural heritage and history. Economic challenges such as inflation and political instability have affected the pound's value over the years, but efforts are continually made to stabilize the currency and promote economic growth."
+        },
+        {
+            "code": "SEK",
+            "rate_to_usd": 13.09,
+            "country": "Sweden",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Swedish krona has been the official currency of Sweden since 1873, replacing the riksdaler. It is issued by the Sveriges Riksbank and is used for all transactions within the country. The krona plays a crucial role in the Swedish economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Sweden's rich cultural heritage and history. The krona's stability has contributed to Sweden's position as a major economic power in Europe, with a strong emphasis on innovation and sustainability."
+        },
+        {
+            "code": "SGD",
+            "rate_to_usd": 1.7,
+            "country": "Singapore",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Singapore dollar has been the official currency of Singapore since 1967, replacing the Malaysian dollar. It is issued by the Monetary Authority of Singapore and is used for all transactions within the country. The dollar plays a crucial role in the Singaporean economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Singapore's rich cultural heritage and history. The dollar's stability has contributed to Singapore's position as a global financial hub and a leading center for trade and investment in Asia."
+        },
+        {
+            "code": "SHP",
+            "rate_to_usd": 1,
+            "country": "Saint Helena",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Saint Helena pound has been the official currency of Saint Helena since 1821, replacing the British pound. It is issued by the government of Saint Helena and is used for all transactions within the territory. The pound plays a crucial role in the economy of Saint Helena, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Saint Helena's historical ties to the United Kingdom. Despite being a remote island territory, the Saint Helena pound remains an essential part of daily life for residents and businesses."
+        },
+        {
+            "code": "SLL",
+            "rate_to_usd": 28930.62,
+            "country": "Sierra Leone",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Sierra Leonean leone has been the official currency of Sierra Leone since 1964, replacing the British West African pound. It is issued by the Bank of Sierra Leone and is used for all transactions within the country. The leone plays a crucial role in the Sierra Leonean economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Sierra Leone's rich cultural heritage and history. Despite economic challenges such as inflation and political instability, efforts are continually made to stabilize the leone and promote economic growth."
+        },
+        {
+            "code": "SOS",
+            "rate_to_usd": 730.15,
+            "country": "Somalia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Somali shilling has been the official currency of Somalia since 1962, replacing the East African shilling. It is issued by the Central Bank of Somalia and is used for all transactions within the country. The shilling plays a crucial role in the Somali economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Somalia's rich cultural heritage and history. Despite ongoing challenges such as political instability and security concerns, efforts are continually made to stabilize the shilling and promote economic development."
+        },
+        {
+            "code": "SRD",
+            "rate_to_usd": 47.09,
+            "country": "Suriname",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Surinamese dollar has been the official currency of Suriname since 2004, replacing the Surinamese guilder. It is issued by the Central Bank of Suriname and is used for all transactions within the country. The dollar plays a crucial role in the Surinamese economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, reflecting Suriname's diverse culture and history. Despite economic challenges such as inflation and fluctuations in commodity prices, efforts are continually made to stabilize the Surinamese dollar and promote economic growth."
+        },
+        {
+            "code": "SSP",
+            "rate_to_usd": 1390.67,
+            "country": "South Sudan",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The South Sudanese pound has been the official currency of South Sudan since its independence in 2011. It replaced the Sudanese pound at par. The currency is issued by the Bank of South Sudan and is used for all transactions within the country. The South Sudanese pound plays a crucial role in the economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to introduce higher denominations to address issues of currency shortage. Despite economic challenges such as inflation and political instability, efforts are continually made to stabilize the South Sudanese pound and promote economic development."
+        },
+        {
+            "code": "STN",
+            "rate_to_usd": 28.52,
+            "country": "São Tomé and Príncipe",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The São Tomé and Príncipe dobra has been the official currency of São Tomé and Príncipe since 1977, replacing the Portuguese escudo. It is issued by the Central Bank of São Tomé and Príncipe and is used for all transactions within the country. The dobra plays a crucial role in the economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as inflation and reliance on imports, efforts are continually made to stabilize the dobra and promote economic growth."
+        },
+        {
+            "code": "SYP",
+            "rate_to_usd": 16228.43,
+            "country": "Syria",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Syrian pound has been the official currency of Syria since 1946, replacing the French Syrian franc. It is issued by the Central Bank of Syria and is used for all transactions within the country. The pound plays a crucial role in the Syrian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to address issues of counterfeiting and currency instability. Despite economic challenges such as inflation and political instability, efforts are continually made to stabilize the Syrian pound and promote economic development."
+        },
+        {
+            "code": "THB",
+            "rate_to_usd": 44.62,
+            "country": "Thailand",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Thai baht has been the official currency of Thailand since 1897. It is issued by the Bank of Thailand and is used for all transactions within the country. The baht plays a crucial role in the Thai economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to introduce new security features to combat counterfeiting. Despite economic challenges such as inflation and fluctuations in tourism, efforts are continually made to stabilize the Thai baht and promote economic growth."
+        },
+        {
+            "code": "TJS",
+            "rate_to_usd": 13.95,
+            "country": "Tajikistan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Tajikistani somoni has been the official currency of Tajikistan since 2000, replacing the Tajikistani ruble. It is issued by the National Bank of Tajikistan and is used for all transactions within the country. The somoni plays a crucial role in the Tajikistani economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as inflation and dependence on remittances, efforts are continually made to stabilize the somoni and promote economic development."
+        },
+        {
+            "code": "TMT",
+            "rate_to_usd": 4.46,
+            "country": "Turkmenistan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Turkmenistani manat has been the official currency of Turkmenistan since 1993, replacing the Russian ruble. It is issued by the Central Bank of Turkmenistan and is used for all transactions within the country. The manat plays a crucial role in the Turkmenistani economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as dependence on natural gas exports and lack of currency convertibility, efforts are continually made to stabilize the manat and promote economic growth."
+        },
+        {
+            "code": "TND",
+            "rate_to_usd": 3.94,
+            "country": "Tunisia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Tunisian dinar has been the official currency of Tunisia since 1958, replacing the French franc. It is issued by the Central Bank of Tunisia and is used for all transactions within the country. The dinar plays a crucial role in the Tunisian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as high unemployment and political instability, efforts are continually made to stabilize the dinar and promote economic development."
+        },
+        {
+            "code": "TOP",
+            "rate_to_usd": 2.96,
+            "country": "Tonga",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Tongan pa'anga has been the official currency of Tonga since 1967. It is issued by the National Reserve Bank of Tonga and is used for all transactions within the country. The pa'anga plays a crucial role in the Tongan economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to address issues of currency stability. Despite economic challenges such as reliance on agriculture and vulnerability to natural disasters, efforts are continually made to stabilize the pa'anga and promote economic growth."
+        },
+        {
+            "code": "TRY",
+            "rate_to_usd": 38.36,
+            "country": "Turkey",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Turkish lira has a long and complex history dating back to the Ottoman Empire. It became the official currency of the modern Republic of Turkey in 1923, replacing the Ottoman lira. Over the years, the lira has experienced periods of stability and volatility, influenced by various economic and political factors. In recent decades, Turkey has undertaken several currency reforms and stabilization measures to control inflation and maintain the value of the lira. However, the currency has faced challenges, including fluctuations in exchange rates, high inflation rates, and political uncertainty. Despite these challenges, the Turkish lira remains an important symbol of Turkey's economic sovereignty and is widely used for domestic and international transactions."
+        },
+        {
+            "code": "TTD",
+            "rate_to_usd": 8.78,
+            "country": "Trinidad and Tobago",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The Trinidad and Tobago dollar has been the official currency of the Republic of Trinidad and Tobago since 1964, replacing the British West Indies dollar. It is issued by the Central Bank of Trinidad and Tobago and is used for all transactions within the country. The dollar plays a crucial role in the Trinidadian economy, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as dependence on oil and gas exports and vulnerability to external shocks, efforts are continually made to stabilize the dollar and promote economic development."
+        },
+        {
+            "code": "TVD",
+            "rate_to_usd": 1.91,
+            "country": "Tuvalu",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Tuvaluan dollar is the national currency of Tuvalu, a small island nation in the Pacific Ocean. It is issued by the Reserve Bank of Tuvalu and is used for all transactions within the country. The Tuvaluan dollar plays a vital role in the economy of Tuvalu, facilitating trade and commerce both domestically and internationally. It is available in both coins and banknotes, with efforts underway to modernize the currency and improve its stability. Despite economic challenges such as limited natural resources and vulnerability to climate change, efforts are continually made to stabilize the Tuvaluan dollar and promote economic growth."
+        },
+        {
+            "code": "TWD",
+            "rate_to_usd": 39.61,
+            "country": "Taiwan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The New Taiwan dollar (NTD) has been the official currency of Taiwan since 1949, replacing the Old Taiwan dollar. It is issued by the Central Bank of the Republic of China (Taiwan) and is commonly abbreviated as NT$ or TWD. The currency plays a crucial role in Taiwan's economy, facilitating domestic and international trade. Over the years, the New Taiwan dollar has experienced fluctuations in value due to factors such as changes in economic policies, global market conditions, and geopolitical tensions. Efforts are continually made to stabilize the currency and promote economic growth and stability in Taiwan."
+        },
+        {
+            "code": "TZS",
+            "rate_to_usd": 3211.87,
+            "country": "Tanzania",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Tanzanian shilling has been the official currency of Tanzania since 1966, following the country's independence from British rule. It is issued by the Bank of Tanzania and is used for all transactions within the country. The shilling plays a vital role in Tanzania's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite economic challenges such as poverty, unemployment, and dependence on agriculture, Tanzania is committed to promoting economic growth and development."
+        },
+        {
+            "code": "UAH",
+            "rate_to_usd": 48.28,
+            "country": "Ukraine",
+            "continent": "Europe",
+            "date": "10 January 2024",
+            "description": "The Ukrainian hryvnia has been the official currency of Ukraine since 1996, following the country's independence from the Soviet Union. It is issued by the National Bank of Ukraine and is used for all transactions within the country. The hryvnia plays a crucial role in Ukraine's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and promote economic growth and stability in Ukraine. Despite economic challenges such as political instability and conflict in the eastern regions, Ukraine remains committed to strengthening its economy and currency."
+        },
+        {
+            "code": "UGX",
+            "rate_to_usd": 4845.36,
+            "country": "Uganda",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Ugandan shilling has been the official currency of Uganda since 1966, replacing the East African shilling. It is issued by the Bank of Uganda and is used for all transactions within the country. The shilling plays a vital role in Uganda's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite economic challenges such as poverty, unemployment, and dependence on agriculture, Uganda is committed to promoting economic growth and development."
+        },
+        {
+            "code": "USD",
+            "rate_to_usd": 1.27,
+            "country": "United States",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The United States dollar (USD) has been the official currency of the United States since 1792. It is issued by the Federal Reserve System and is the most widely used currency in the world. The dollar plays a central role in global trade and finance, serving as the primary reserve currency for many countries. Its stability and widespread acceptance make it a preferred choice for international transactions and investments. Over the years, the U.S. dollar has maintained its dominance despite fluctuations in value due to factors such as changes in economic policies, geopolitical events, and market conditions."
+        },
+        {
+            "code": "UYU",
+            "rate_to_usd": 49.98,
+            "country": "Uruguay",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Uruguayan peso (UYU) has been the official currency of Uruguay since 1896. It is issued by the Central Bank of Uruguay and is used for all transactions within the country. The peso plays a crucial role in Uruguay's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and promote economic growth and stability in Uruguay. Despite economic challenges such as inflation and unemployment, Uruguay remains committed to strengthening its economy and currency."
+        },
+        {
+            "code": "UZS",
+            "rate_to_usd": 15730.9,
+            "country": "Uzbekistan",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Uzbekistani soʻm (UZS) has been the official currency of Uzbekistan since 1994, replacing the Russian ruble after the dissolution of the Soviet Union. It is issued by the Central Bank of the Republic of Uzbekistan and is used for all transactions within the country. The som plays a vital role in Uzbekistan's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite challenges such as poverty, corruption, and political instability, Uzbekistan is committed to promoting economic growth and development."
+        },
+        {
+            "code": "VES",
+            "rate_to_usd": 45.95,
+            "country": "Venezuela",
+            "continent": "South America",
+            "date": "10 January 2024",
+            "description": "The Venezuelan bolívar soberano (VES) has been the official currency of Venezuela since 2018, replacing the bolívar fuerte. It is issued by the Central Bank of Venezuela and is used for all transactions within the country. The bolívar soberano plays a crucial role in Venezuela's economy, facilitating trade and commerce both domestically and internationally. However, Venezuela faces significant economic challenges, including hyperinflation, political instability, and international sanctions, which have severely devalued the currency and disrupted the economy. Efforts to stabilize the currency and revive the economy are ongoing but face numerous obstacles."
+        },
+        {
+            "code": "VND",
+            "rate_to_usd": 31189.46,
+            "country": "Vietnam",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Vietnamese đồng (VND) has been the official currency of Vietnam since 1978, replacing the đồng xu and the đồng giấy. It is issued by the State Bank of Vietnam and is used for all transactions within the country. The đồng plays a central role in Vietnam's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite challenges such as poverty, corruption, and dependence on agriculture, Vietnam has experienced rapid economic growth and development in recent years."
+        },
+        {
+            "code": "VUV",
+            "rate_to_usd": 150.03,
+            "country": "Vanuatu",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Vanuatu vatu (VUV) has been the official currency of Vanuatu since 1981, replacing the New Hebrides franc. It is issued by the Reserve Bank of Vanuatu and is used for all transactions within the country. The vatu plays a vital role in Vanuatu's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite challenges such as vulnerability to natural disasters and dependence on agriculture, Vanuatu has experienced steady economic growth and development."
+        },
+        {
+            "code": "WST",
+            "rate_to_usd": 3.44,
+            "country": "Samoa",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The Samoan tālā (WST) has been the official currency of Samoa since 1967, replacing the pound. It is issued by the Central Bank of Samoa and is used for all transactions within the country. The tālā plays a crucial role in Samoa's economy, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economy. Despite challenges such as vulnerability to natural disasters and dependence on agriculture, Samoa has experienced steady economic growth and development."
+        },
+        {
+            "code": "XAF",
+            "rate_to_usd": 763.48,
+            "country": "Central African Republic",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Central African CFA franc (XAF) has been the official currency of six independent states in central Africa since 1945, including Cameroon, Central African Republic, Chad, Republic of the Congo, Equatorial Guinea, and Gabon. It is issued by the Bank of Central African States and the Bank of the Central African States and is used for all transactions within these countries. The CFA franc plays a vital role in the economies of these nations, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economies."
+        },
+        {
+            "code": "XCD",
+            "rate_to_usd": 3.44,
+            "country": "East Caribbean Dollar",
+            "continent": "North America",
+            "date": "10 January 2024",
+            "description": "The East Caribbean dollar (XCD) has been the official currency of eight countries and territories in the Eastern Caribbean since 1965, including Anguilla, Antigua and Barbuda, Dominica, Grenada, Montserrat, Saint Kitts and Nevis, Saint Lucia, and Saint Vincent and the Grenadines. It is issued by the Eastern Caribbean Central Bank and is used for all transactions within these countries and territories. The East Caribbean dollar plays a crucial role in the economies of these nations, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economies."
+        },
+        {
+            "code": "XDR",
+            "rate_to_usd": 0.955,
+            "country": "International Monetary Fund (IMF)",
+            "continent": "Worldwide",
+            "date": "10 January 2024",
+            "description": "The Special Drawing Right (XDR) is an international reserve asset created by the International Monetary Fund (IMF) in 1969 to supplement its member countries' official reserves. The value of the XDR is based on a basket of five major currencies: the US dollar, euro, Chinese yuan, Japanese yen, and British pound sterling. The XDR is used by the IMF and its member countries for various purposes, including as a unit of account for international transactions, a store of value, and a potential source of liquidity. It is not a currency per se but rather a type of international monetary reserve asset."
+        },
+        {
+            "code": "XOF",
+            "rate_to_usd": 763.48,
+            "country": "West African CFA franc",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The West African CFA franc (XOF) has been the official currency of eight countries in West Africa since 1945, including Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, and Togo. It is issued by the West African Economic and Monetary Union and is used for all transactions within these countries. The CFA franc plays a vital role in the economies of these nations, facilitating trade and commerce both domestically and internationally. Efforts are continually made to stabilize the currency and manage inflation to ensure the stability of the economies."
+        },
+        {
+            "code": "XPF",
+            "rate_to_usd": 138.89,
+            "country": "French Polynesia",
+            "continent": "Australia",
+            "date": "10 January 2024",
+            "description": "The French Pacific Franc (XPF) has been the official currency of French Polynesia, New Caledonia, and Wallis and Futuna since 1945. It is issued by the Institut d'émission d'Outre-Mer (IEOM) and is pegged to the euro at a fixed rate. The XPF is primarily used in French overseas territories in the Pacific Ocean and serves as a crucial medium of exchange for local transactions, including retail purchases, services, and financial activities. Efforts are made to maintain the stability of the XPF against the euro to ensure economic stability and facilitate trade within the region."
+        },
+        {
+            "code": "YER",
+            "rate_to_usd": 315.91,
+            "country": "Yemen",
+            "continent": "Asia",
+            "date": "10 January 2024",
+            "description": "The Yemeni Rial (YER) has been the official currency of Yemen since 1990. It replaced the North Yemeni rial and the South Yemeni dinar following the reunification of Yemen. The YER is issued by the Central Bank of Yemen and serves as the primary medium of exchange in the country for all types of transactions, including retail purchases, services, and financial activities. The currency has faced challenges due to political instability and conflict in Yemen, leading to depreciation and economic hardships for the population. Efforts are ongoing to stabilize the currency and restore economic growth."
+        },
+        {
+            "code": "ZAR",
+            "rate_to_usd": 23.77,
+            "country": "South Africa",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The South African Rand (ZAR) has been the official currency of South Africa since 1961, replacing the South African pound. It is issued by the South African Reserve Bank and serves as the primary medium of exchange in the country for all types of transactions, including retail purchases, services, and financial activities. The rand plays a crucial role in the South African economy and is widely traded on international foreign exchange markets. Efforts are made to maintain the stability of the rand through monetary policy measures to ensure economic stability and facilitate international trade."
+        },
+        {
+            "code": "ZMW",
+            "rate_to_usd": 33.34,
+            "country": "Zambia",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Zambian Kwacha (ZMW) has been the official currency of Zambia since 1968, replacing the Zambian pound. It is issued by the Bank of Zambia and serves as the primary medium of exchange in the country for all types of transactions, including retail purchases, services, and financial activities. The kwacha plays a crucial role in the Zambian economy and is subject to fluctuations influenced by various factors such as inflation, economic policies, and external market conditions. Efforts are made to maintain the stability of the kwacha through monetary policy measures to ensure economic growth and stability."
+        },
+        {
+            "code": "ZWL",
+            "rate_to_usd": 10643.35,
+            "country": "Zimbabwe",
+            "continent": "Africa",
+            "date": "10 January 2024",
+            "description": "The Zimbabwean Dollar (ZWL) has a complex history characterized by periods of hyperinflation and currency instability. Originally introduced in 1980 after Zimbabwe gained independence, the Zimbabwean dollar served as the official currency until it was abandoned in 2009 due to hyperinflation. During this period, the country experienced one of the highest inflation rates in history, leading to the adoption of foreign currencies such as the US dollar and the South African rand for everyday transactions. In 2019, the Zimbabwean dollar was reintroduced as the official currency, but it continues to face challenges related to inflation and economic instability."
+        },
+        {
+        "code": "USD",
+        "rate_to_usd": 1,
+        "country": "United States",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "AED",
+        "rate_to_usd": 3.67,
+        "country": "United Arab Emirates",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "AFN",
+        "rate_to_usd": 72.13,
+        "country": "Afghanistan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "ALL",
+        "rate_to_usd": 93.73,
+        "country": "Albania",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "AMD",
+        "rate_to_usd": 387.99,
+        "country": "Armenia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ANG",
+        "rate_to_usd": 1.79,
+        "country": "Netherlands Antilles",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "AOA",
+        "rate_to_usd": 845.77,
+        "country": "Angola",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "ARS",
+        "rate_to_usd": 864.75,
+        "country": "Argentina",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "AUD",
+        "rate_to_usd": 1.51,
+        "country": "Australia",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "AWG",
+        "rate_to_usd": 1.79,
+        "country": "Aruba",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "AZN",
+        "rate_to_usd": 1.7,
+        "country": "Azerbaijan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "BAM",
+        "rate_to_usd": 1.82,
+        "country": "Bosnia-Herzegovina",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BBD",
+        "rate_to_usd": 2,
+        "country": "Barbados",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BDT",
+        "rate_to_usd": 116.28,
+        "country": "Bangladesh",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BGN",
+        "rate_to_usd": 1.82,
+        "country": "Bulgaria",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BHD",
+        "rate_to_usd": 0.376,
+        "country": "Bahrain",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BIF",
+        "rate_to_usd": 2859.62,
+        "country": "Burundi",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BMD",
+        "rate_to_usd": 1,
+        "country": "Bermuda",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BND",
+        "rate_to_usd": 1.35,
+        "country": "Brunei",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BOB",
+        "rate_to_usd": 6.92,
+        "country": "Bolivia",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BRL",
+        "rate_to_usd": 5.14,
+        "country": "Brazil",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BSD",
+        "rate_to_usd": 1,
+        "country": "Bahamas",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BTN",
+        "rate_to_usd": 83.54,
+        "country": "Bhutan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BWP",
+        "rate_to_usd": 13.64,
+        "country": "Botswana",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "BYN",
+        "rate_to_usd": 3.27,
+        "country": "Belarus",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "BZD",
+        "rate_to_usd": 2,
+        "country": "Belize",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CAD",
+        "rate_to_usd": 1.37,
+        "country": "Canada",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CDF",
+        "rate_to_usd": 2754.37,
+        "country": "Democratic Republic of the Congo",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "CHF",
+        "rate_to_usd": 0.906,
+        "country": "Switzerland",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CLP",
+        "rate_to_usd": 928.47,
+        "country": "Chile",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CNY",
+        "rate_to_usd": 7.23,
+        "country": "China",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "COP",
+        "rate_to_usd": 3888.13,
+        "country": "Colombia",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CRC",
+        "rate_to_usd": 510.27,
+        "country": "Costa Rica",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "CUP",
+        "rate_to_usd": 24,
+        "country": "Cuba",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "CVE",
+        "rate_to_usd": 102.39,
+        "country": "Cape Verde",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "CZK",
+        "rate_to_usd": 23.13,
+        "country": "Czech Republic",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "DJF",
+        "rate_to_usd": 177.72,
+        "country": "Djibouti",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "DKK",
+        "rate_to_usd": 6.93,
+        "country": "Denmark",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "DOP",
+        "rate_to_usd": 58.04,
+        "country": "Dominican Republic",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "DZD",
+        "rate_to_usd": 134.54,
+        "country": "Algeria",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "EGP",
+        "rate_to_usd": 47.37,
+        "country": "Egypt",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ERN",
+        "rate_to_usd": 15,
+        "country": "Eritrea",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "ETB",
+        "rate_to_usd": 57.43,
+        "country": "Ethiopia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "EUR",
+        "rate_to_usd": 0.88,
+        "country": "Eurozone",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "FJD",
+        "rate_to_usd": 2.07,
+        "country": "Fiji",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "FKP",
+        "rate_to_usd": 0.72,
+        "country": "Falkland Islands",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "FOK",
+        "rate_to_usd": 0.88,
+        "country": "Faroe Islands",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GBP",
+        "rate_to_usd": 0.72,
+        "country": "United Kingdom",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GEL",
+        "rate_to_usd": 3.33,
+        "country": "Georgia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GGP",
+        "rate_to_usd": 0.72,
+        "country": "Guernsey",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GHS",
+        "rate_to_usd": 7.21,
+        "country": "Ghana",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "GIP",
+        "rate_to_usd": 0.72,
+        "country": "Gibraltar",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GMD",
+        "rate_to_usd": 51.32,
+        "country": "Gambia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "GNF",
+        "rate_to_usd": 9766.89,
+        "country": "Guinea",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GTQ",
+        "rate_to_usd": 7.72,
+        "country": "Guatemala",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "GYD",
+        "rate_to_usd": 209.28,
+        "country": "Guyana",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "HKD",
+        "rate_to_usd": 7.76,
+        "country": "Hong Kong",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "HNL",
+        "rate_to_usd": 24.01,
+        "country": "Honduras",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "HRK",
+        "rate_to_usd": 6.96,
+        "country": "Croatia",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "HTG",
+        "rate_to_usd": 101.43,
+        "country": "Haiti",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "HUF",
+        "rate_to_usd": 304.45,
+        "country": "Hungary",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "IDR",
+        "rate_to_usd": 14362.86,
+        "country": "Indonesia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ILS",
+        "rate_to_usd": 3.23,
+        "country": "Israel",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "IMP",
+        "rate_to_usd": 0.72,
+        "country": "Isle of Man",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "INR",
+        "rate_to_usd": 76.11,
+        "country": "India",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "IQD",
+        "rate_to_usd": 1459.99,
+        "country": "Iraq",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "IRR",
+        "rate_to_usd": 42105,
+        "country": "Iran",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ISK",
+        "rate_to_usd": 127.02,
+        "country": "Iceland",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "JEP",
+        "rate_to_usd": 0.72,
+        "country": "Jersey",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "JMD",
+        "rate_to_usd": 154.48,
+        "country": "Jamaica",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "JOD",
+        "rate_to_usd": 0.709,
+        "country": "Jordan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "JPY",
+        "rate_to_usd": 111.12,
+        "country": "Japan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KES",
+        "rate_to_usd": 112.88,
+        "country": "Kenya",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KGS",
+        "rate_to_usd": 84.77,
+        "country": "Kyrgyzstan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KHR",
+        "rate_to_usd": 4048.05,
+        "country": "Cambodia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KID",
+        "rate_to_usd": 1.51,
+        "country": "Kiribati",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KMF",
+        "rate_to_usd": 417.5,
+        "country": "Comoros",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KRW",
+        "rate_to_usd": 1185.33,
+        "country": "South Korea",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KWD",
+        "rate_to_usd": 0.302,
+        "country": "Kuwait",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KYD",
+        "rate_to_usd": 0.83,
+        "country": "Cayman Islands",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "KZT",
+        "rate_to_usd": 431.09,
+        "country": "Kazakhstan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LAK",
+        "rate_to_usd": 9737.45,
+        "country": "Laos",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LBP",
+        "rate_to_usd": 1510.5,
+        "country": "Lebanon",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LKR",
+        "rate_to_usd": 224.4,
+        "country": "Sri Lanka",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LRD",
+        "rate_to_usd": 211.33,
+        "country": "Liberia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LSL",
+        "rate_to_usd": 15.01,
+        "country": "Lesotho",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "LYD",
+        "rate_to_usd": 4.5,
+        "country": "Libya",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MAD",
+        "rate_to_usd": 9.44,
+        "country": "Morocco",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MDL",
+        "rate_to_usd": 18.18,
+        "country": "Moldova",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MGA",
+        "rate_to_usd": 3959.77,
+        "country": "Madagascar",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "MKD",
+        "rate_to_usd": 53.25,
+        "country": "North Macedonia",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MMK",
+        "rate_to_usd": 1743.55,
+        "country": "Myanmar",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MNT",
+        "rate_to_usd": 2856.6,
+        "country": "Mongolia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MOP",
+        "rate_to_usd": 7.99,
+        "country": "Macau",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MRU",
+        "rate_to_usd": 37.87,
+        "country": "Mauritania",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MUR",
+        "rate_to_usd": 42.28,
+        "country": "Mauritius",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MVR",
+        "rate_to_usd": 15.42,
+        "country": "Maldives",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MWK",
+        "rate_to_usd": 860.07,
+        "country": "Malawi",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MXN",
+        "rate_to_usd": 19.91,
+        "country": "Mexico",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MYR",
+        "rate_to_usd": 4.15,
+        "country": "Malaysia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "MZN",
+        "rate_to_usd": 62.88,
+        "country": "Mozambique",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "NAD",
+        "rate_to_usd": 15.01,
+        "country": "Namibia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "NGN",
+        "rate_to_usd": 413.5,
+        "country": "Nigeria",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "NIO",
+        "rate_to_usd": 35.14,
+        "country": "Nicaragua",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "NOK",
+        "rate_to_usd": 8.69,
+        "country": "Norway",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "NPR",
+        "rate_to_usd": 118.58,
+        "country": "Nepal",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "NZD",
+        "rate_to_usd": 1.48,
+        "country": "New Zealand",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "OMR",
+        "rate_to_usd": 0.386,
+        "country": "Oman",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "PAB",
+        "rate_to_usd": 1,
+        "country": "Panama",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "PEN",
+        "rate_to_usd": 3.96,
+        "country": "Peru",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "PGK",
+        "rate_to_usd": 3.52,
+        "country": "Papua New Guinea",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "PHP",
+        "rate_to_usd": 49.55,
+        "country": "Philippines",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "PKR",
+        "rate_to_usd": 183.58,
+        "country": "Pakistan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "PLN",
+        "rate_to_usd": 3.91,
+        "country": "Poland",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "PYG",
+        "rate_to_usd": 6990.62,
+        "country": "Paraguay",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "QAR",
+        "rate_to_usd": 3.64,
+        "country": "Qatar",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "RON",
+        "rate_to_usd": 4.16,
+        "country": "Romania",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "RSD",
+        "rate_to_usd": 104.89,
+        "country": "Serbia",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "RUB",
+        "rate_to_usd": 80.92,
+        "country": "Russia",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "RWF",
+        "rate_to_usd": 1005.5,
+        "country": "Rwanda",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SAR",
+        "rate_to_usd": 3.75,
+        "country": "Saudi Arabia",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SBD",
+        "rate_to_usd": 8.12,
+        "country": "Solomon Islands",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SCR",
+        "rate_to_usd": 14.65,
+        "country": "Seychelles",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+ {
+        "code": "SDG",
+        "rate_to_usd": 440.46,
+        "country": "Sudan",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SEK",
+        "rate_to_usd": 8.68,
+        "country": "Sweden",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SGD",
+        "rate_to_usd": 1.34,
+        "country": "Singapore",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SHP",
+        "rate_to_usd": 0.72,
+        "country": "Saint Helena",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SLL",
+        "rate_to_usd": 10323.13,
+        "country": "Sierra Leone",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SOS",
+        "rate_to_usd": 578.61,
+        "country": "Somalia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SRD",
+        "rate_to_usd": 21.3,
+        "country": "Suriname",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "SSP",
+        "rate_to_usd": 177.4,
+        "country": "South Sudan",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "STN",
+        "rate_to_usd": 22.65,
+        "country": "São Tomé and Príncipe",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SVC",
+        "rate_to_usd": 8.74,
+        "country": "El Salvador",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SYP",
+        "rate_to_usd": 2513.65,
+        "country": "Syria",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "SZL",
+        "rate_to_usd": 15.02,
+        "country": "Swaziland",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "THB",
+        "rate_to_usd": 31.33,
+        "country": "Thailand",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "TJS",
+        "rate_to_usd": 11.29,
+        "country": "Tajikistan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "TMT",
+        "rate_to_usd": 3.5,
+        "country": "Turkmenistan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "TND",
+        "rate_to_usd": 2.95,
+        "country": "Tunisia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "TOP",
+        "rate_to_usd": 2.25,
+        "country": "Tonga",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "TRY",
+        "rate_to_usd": 14.4,
+        "country": "Turkey",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "TTD",
+        "rate_to_usd": 6.79,
+        "country": "Trinidad and Tobago",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "TVD",
+        "rate_to_usd": 1.3,
+        "country": "Tuvalu",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "TWD",
+        "rate_to_usd": 27.96,
+        "country": "Taiwan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "TZS",
+        "rate_to_usd": 2312.25,
+        "country": "Tanzania",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "UAH",
+        "rate_to_usd": 27.04,
+        "country": "Ukraine",
+        "continent": "Europe",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "UGX",
+        "rate_to_usd": 3590.02,
+        "country": "Uganda",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "USD",
+        "rate_to_usd": 1,
+        "country": "United States",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "UYU",
+        "rate_to_usd": 44.16,
+        "country": "Uruguay",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "UZS",
+        "rate_to_usd": 11578.23,
+        "country": "Uzbekistan",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "VES",
+        "rate_to_usd": 199390,
+        "country": "Venezuela",
+        "continent": "South America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "VND",
+        "rate_to_usd": 23182.46,
+        "country": "Vietnam",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "VUV",
+        "rate_to_usd": 111.7,
+        "country": "Vanuatu",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "WST",
+        "rate_to_usd": 2.53,
+        "country": "Samoa",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "XAF",
+        "rate_to_usd": 554.9,
+        "country": "Central African Republic",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "XCD",
+        "rate_to_usd": 2.7,
+        "country": "East Caribbean",
+        "continent": "North America",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "XDR",
+        "rate_to_usd": 0.703,
+        "country": "International Monetary Fund (IMF)",
+        "continent": "Global",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "XOF",
+        "rate_to_usd": 554.9,
+        "country": "West African Economic and Monetary Union",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "XPF",
+        "rate_to_usd": 104.61,
+        "country": "French Polynesia",
+        "continent": "Oceania",
+        "date": "11 May 2024"
+    },
+    {
+        "code": "YER",
+        "rate_to_usd": 250.45,
+        "country": "Yemen",
+        "continent": "Asia",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ZAR",
+        "rate_to_usd": 15.01,
+        "country": "South Africa",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ZMW",
+        "rate_to_usd": 22.59,
+        "country": "Zambia",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    },
+     {
+        "code": "ZWL",
+        "rate_to_usd": 361.9,
+        "country": "Zimbabwe",
+        "continent": "Africa",
+        "date": "11 May 2024"
+    }
+
+
+ ]

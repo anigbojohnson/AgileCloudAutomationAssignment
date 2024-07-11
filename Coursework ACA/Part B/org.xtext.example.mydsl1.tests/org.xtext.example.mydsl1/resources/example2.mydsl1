@@ -1,0 +1,62 @@
+DatabaseParameters{
+  Connection "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/FTMP?retryWrites=true&w=majority" ,
+   database "FTMP"
+  }                   
+
+Collection User {
+  id: Number  unique,
+  username: String required unique
+  
+}
+Collection Order {
+  id: Number  required unique ,
+  price: String required unique,
+  userOrder: ref User
+}
+
+task: {
+  operation: INSERT,
+  collection: User
+  input: {
+    id : 1,
+    username:"johnson"
+  }
+}
+
+
+task: {
+  operation: INSERT,
+  collection: User
+  input: {
+    id : 2,
+    username:"thompson"
+  }
+}
+task: {
+  operation: INSERT,
+  collection: Order
+  input: {
+    id : 1,
+    price:12,
+    userOrder:1
+  }
+}
+
+
+task: {
+  operation: INSERT,
+  collection: Order
+  input: {
+    id : 2,
+    price:30,
+     userOrder:2
+  }
+}
+
+task: {
+  operation: GET,
+  collection: Order
+  input: {
+    id : 1
+  }
+}

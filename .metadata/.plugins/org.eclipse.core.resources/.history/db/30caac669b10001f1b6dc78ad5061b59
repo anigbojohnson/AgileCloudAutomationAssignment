@@ -1,0 +1,56 @@
+package retake
+
+
+import com.mongodb.MongoClientSettings
+import com.mongodb.ServerAddress
+import com.mongodb.client.MongoClients
+import com.mongodb.client.MongoCollection
+import org.bson.Document
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+import java.util.List
+class ExcerciseFivePartB {
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+		def jsonFilePath = 'src/main/resources/currency-extended.json'
+		
+		// Read the JSON file using JsonSlurper
+		def jsonSlurper = new JsonSlurper()
+		def jsonData = jsonSlurper.parse(new File(jsonFilePath))
+		
+		def currencyData = jsonData as List
+		
+		println("All country currency in the world per doller:")
+		println(currenciesPerformanceQuery(currencyData ) )
+		println("\n")
+		
+	}
+	static String currenciesPerformanceQuery(currencyCollection) {
+		def formattedTable = new StringBuilder()
+		formattedTable.append(String.format("| %-35s | %-20s |%-20s |%-20s |\n", "Country","Code","Continent", "Lowest Rate"))
+		formattedTable.append("|-------------------------------------|----------------------|\n")
+		
+		// Execute the aggregation pipeline
+		def groupedData = currencyCollection.groupBy { it.code }.collect { code, items ->
+			[
+				code: code,
+				lowestRate: items.min { it.rate_to_usd }
+			]
+		}.sort { it.code }
+		
+		// Print the results
+		groupedData.each { result ->
+			def code = result.code
+			def lowestRate = result.lowestRate
+		
+			// Find the document with the specified code and lowest rate
+			def countryData = dataset.find { it.code == code && it.rate_to_usd == lowestRate }
+		
+			formattedTable.append(String.format("| %-35s | %-20s | %-20s | %-20s |\n", countryData.country, code, countryData.continent, lowestRate))
+		}
+		
+		return formattedTable.toString()
+	}
+}

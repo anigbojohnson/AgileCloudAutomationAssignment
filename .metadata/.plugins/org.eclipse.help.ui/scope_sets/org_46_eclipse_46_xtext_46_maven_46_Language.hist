@@ -1,0 +1,4 @@
+#Sun Feb 04 18:19:07 GMT 2024
+__DEFAULT__=false
+expression=org.eclipse.xtext.maven.Language
+org.eclipse.help.ui.localSearch.master=true

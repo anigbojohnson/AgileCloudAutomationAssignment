@@ -1,0 +1,40 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+Model:
+  statements+=Statement*;
+
+Statement:
+  ConnectionStatement |  SchemaStatement ;
+
+ConnectionStatement:
+  'Connection' '{'
+    'Host' ':' host=STRING '&'&
+    'Port' ':' port=INT '&'&
+    'Database' ':' database=STRING '&'&
+    'Username' ':' username=STRING '&'&
+    'Password' ':' password=STRING '&'&
+    'Options' ':' options=STRING
+  '}';
+
+SchemaStatement:
+  'Make' 'dictionary' name=ID
+  '{'
+    (entries+=Columns (',' entries+=Columns)*)?
+  '}';
+
+Columns:
+  name=ID ':' fieldType=FieldType status=ValueStatus |
+  (name=ID ':' fieldType=FieldType status=ValueStatus (uniqueKey?='uk' | uniqueKey?='unique_key')) |
+  (name=ID ':' (referenceKey?='ref_k' | referenceKey?='reference_key')
+    refDictionary=[SchemaStatement|ID] '-f' referencedField=[Columns|ID]);
+
+enum ValueStatus:
+  NULL='null' | NOT='not null';
+
+FieldType:
+  'String' | 'Integer' | 'Double' | 'Date' | 'Boolean';
+  
+  
+  

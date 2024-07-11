@@ -1,0 +1,41 @@
+grammar org.xtext.example.mydsl1.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl1/MyDsl"
+
+Model:
+  connection=ConnectionStatement
+  statements+=OperationStatement*;
+
+OperationStatement:
+  MakeStatement;
+
+Statement:
+  ConnectionStatement | OperationStatement;
+
+ConnectionStatement:
+  'Connection' '{'
+    'Host' ':' host=STRING '&'&
+    'Port' ':' port=INT '&'&
+    'Database' ':' database=STRING '&'&
+    'Username' ':' username=STRING '&'&
+    'Password' ':' password=STRING '&'&
+    'Options' ':' options=STRING
+  '}';
+
+MakeStatement:
+  'collection' name=ID
+  '{'
+    (entries+=DictionaryEntry (',' entries+=DictionaryEntry)*)?
+  '}';
+
+DictionaryEntry:
+  name=ID ':' fieldType=FieldType (status?=status)? (uniqueKey?='unique')?|  name=ID ':' referenceKey?='ref'refDictionary=[MakeStatement|ID];
+
+status:
+	   "true"|"false"
+;
+
+
+FieldType:
+  'String' | 'Integer' | 'Boolean'|'mongoose.Schema.Types.ObjectId';
+

@@ -1,0 +1,51 @@
+  DatabaseParameters{
+  Connection "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/FTMP?retryWrites=true&w=majority" ,
+   database "FTMP"
+  }                   
+
+
+Collection MyCollection {
+    entry1: String required unique,
+    entry2: Number,
+    entry3: Boolean
+}
+
+task: {
+    operation: GET,
+    collection: MyCollection
+    input: {
+        entry1: "Value1",
+        entry2: 42,
+         entry3: true
+    }
+}
+
+task: {
+    operation: DELETE,
+    collection: MyCollection
+    input: {
+        TaskEntry1: "Value1"
+    }
+}
+
+task: {
+    operation: INSERT,
+    collection: MyCollection
+    input: {
+         entry1: "Value2",
+         entry2: 22,
+         entry3: false,
+    }
+}
+
+task: {
+    operation: UPDATE,
+    collection: MyCollection
+    input: {
+        entry1: "Value2"
+    },
+    update: {
+        entry2: 456
+    }
+}
+

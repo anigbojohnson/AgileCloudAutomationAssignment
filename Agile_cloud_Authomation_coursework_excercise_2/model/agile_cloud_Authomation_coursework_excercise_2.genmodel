@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Agile_cloud_Authomation_coursework_excercise_2/src-gen"
+    creationIcons="false" editDirectory="/Agile_cloud_Authomation_coursework_excercise_2.edit/src-gen"
+    editorDirectory="/Agile_cloud_Authomation_coursework_excercise_2.editor/src-gen"
+    modelPluginID="Agile_cloud_Authomation_coursework_excercise_2" modelName="Agile_cloud_Authomation_coursework_excercise_2"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="21.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>agile_cloud_Authomation_coursework_excercise_2.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Agile_cloud_Authomation_coursework_excercise_2" disposableProviderFactory="true"
+      ecorePackage="agile_cloud_Authomation_coursework_excercise_2.ecore#/"/>
+</genmodel:GenModel>

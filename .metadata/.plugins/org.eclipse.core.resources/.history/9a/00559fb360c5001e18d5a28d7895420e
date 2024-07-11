@@ -1,0 +1,21 @@
+package org.xtext.example.mydsl
+
+@SuppressWarnings("all")
+import org.eclipse.xtext.validation.Check
+import org.eclipse.xtext.validation.ValidationMessageAcceptor
+import org.xtext.example.mydsl.MyDslPackage
+
+aspect MyDslValidator {
+
+  @Check
+  def validateUniqueFieldNames(DictionaryStatement dictionary, ValidationMessageAcceptor acceptor) {
+    val Set<String> fieldNames = newHashSet
+    for (entry : dictionary.entries) {
+      if (!fieldNames.add(entry.fieldName)) {
+        acceptor.acceptWarning("Duplicate field name '" + entry.fieldName + "'", 
+            MyDslPackage.Literals.DICTIONARY_ENTRY__FIELD_NAME, 
+            ValidationMessageAcceptor.INSIGNIFICANT_INDEX, null)
+      }
+    }
+  }
+}

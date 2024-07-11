@@ -1,0 +1,125 @@
+package retake
+
+
+
+import com.mongodb.client.model.Aggregates
+import com.mongodb.client.model.Accumulators
+import com.mongodb.MongoClientSettings
+import com.mongodb.ServerAddress
+import com.mongodb.client.MongoClients
+import com.mongodb.client.MongoCollection
+import com.mongodb.client.MongoCursor
+import com.mongodb.client.model.Projections
+import com.mongodb.client.model.Filters
+
+import org.bson.Document
+import org.bson.conversions.Bson
+import groovy.json.JsonOutput
+import com.mongodb.client.model.Sorts
+
+class ExcerciseFive {
+	static void main(String[] args) {
+		def connectionString = "mongodb+srv://anigbojohnsona:Sonship123@cluster0.kybkuyh.mongodb.net/ReatakeAgileCloudAuthomation?retryWrites=true&w=majority"
+	   
+			   // Connect to the MongoDB server using the connection string
+			   def mongoClient = MongoClients.create(connectionString)
+	   
+			   // Access a specific database
+			   def database = mongoClient.getDatabase("ReatakeAgileCloudAuthomation")
+	   
+			   // Access a specific collection in the database
+			   def collection = database.getCollection("currency-extended")
+			   
+			   
+			   
+			   println("All country currency in the world per doller:")
+			   println("\n")
+			   
+			   
+			   println("All country currency in the world per doller:")
+			   println(currenciesDescriptionQuery(collection ))
+			   println("\n")
+			   
+			
+			   
+			   mongoClient.close()
+		   }
+	static String currenciesPerformanceQuery(MongoCollection<Document> collection) {
+			   
+			   def formattedTable = new StringBuilder()
+			   formattedTable.append(String.format("| %-35s | %-20s |%-20s |%-20s |\n", "Country","Code","Continent", "Lowest Rate"))
+			   formattedTable.append("|-------------------------------------|----------------------|\n")
+			  
+			   // Execute the aggregation pipeline
+			List<Bson> pipeline = Arrays.asList(
+    // Group by currency code
+    Aggregates.group(
+        new Document("code", "\$code"),
+        Accumulators.min("lowestRate", "\$rate_to_usd"),
+       
+    ),
+    // Project to reshape the output document
+	Aggregates.sort(Sorts.ascending("_id.code")),
+    Aggregates.project(
+        Projections.fields(
+            
+            Projections.include("lowestRate","minDocument")
+        )
+    )
+ );
+	List<Document> results = collection.aggregate(pipeline).into(new ArrayList<>());
+
+// Print the results
+	results.each { result ->
+		def code = result._id.code
+		def lowestRate = result.get("lowestRate")
+	
+	// Query the collection again to find the document with the specified code and lowest rate
+		Document dateResult = collection.find(
+			Filters.and(
+			Filters.eq("code", code),
+			Filters.eq("rate_to_usd", lowestRate)
+		)
+	).first()
+	formattedTable.append(String.format("| %-35s | %-20s | %-20s | %-20s |\n", dateResult.country, code, dateResult.continent, lowestRate))
+	
+	}
+	return formattedTable
+	
+	}
+	
+	
+	static String currenciesDescriptionQuery(MongoCollection<Document> collection) {
+		def formattedTable = new StringBuilder()
+		formattedTable.append(String.format("| %-35s | %-50s  |\n", "Country","Description"))
+		formattedTable.append("|-------------------------------------|----------------------|\n")
+		def countryDescriptionMap = new LinkedHashMap() // Changed to LinkedHashMap to preserve insertion order
+		
+		
+		
+		def cursor = collection.find().iterator()
+		try {
+			while (cursor.hasNext()) {
+				def document = cursor.next()
+				def country = document.getString("country")
+				def description = document.getString("description")
+				// Check if description is not null before adding to the map
+				if (description != null) {
+					printf("%10s: %100s \n\n", country, description);
+					
+				}
+			}
+			//return countryDescriptionMap
+			println "Size of countryDescriptionMap: ${countryDescriptionMap.size()}"
+			
+			
+			
+		} finally {
+			cursor.close()
+		}
+		
+	}
+	
+	
+	
+}

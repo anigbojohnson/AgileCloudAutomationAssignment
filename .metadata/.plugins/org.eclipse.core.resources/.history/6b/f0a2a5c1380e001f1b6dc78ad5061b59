@@ -1,0 +1,64 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl/MyDsl"
+
+
+MongoDB:
+	models += Model*;
+	
+	
+Model:
+  connection=ConnectionStatement
+  statements+=CRUDOperationAndCollectionSchema*;
+
+CRUDOperationAndCollectionSchema:
+  schema=CollectionSchema operations+=CRUDOperations*;
+
+ConnectionStatement:
+  'DatabaseParameters' '{'
+  'Connection' connectionString=STRING ','&
+	'databaseName' databaseName=STRING
+  '}';
+  
+
+
+CollectionSchema:
+  'Collection' name=ID
+  '{'
+    (defination+=CollectionFieldDefination (',' defination+=CollectionFieldDefination)*)?
+  '}';
+
+CollectionFieldDefination:
+  name=ID ':' fieldType=FieldType (status?="required")? (uniqueKey?='unique')?
+  | name=ID ':' 'ref' refCollection=[CollectionSchema | ID];
+
+CRUDOperations:
+  ('task'name=ID ':'( '{'
+    'operation:' type=Operation ','
+    'collection:' collection=[CollectionSchema]
+    'input:' '{'
+      (entries+=CollectionEntry (',' entries+=CollectionEntry)*)?
+    '}'
+  '}') )| ('task'name=ID ':'( '{'
+    'operation:' type='UPDATE'
+    'collection:' collection=[CollectionSchema]
+    'input:' '{'
+      entries+=CollectionEntry (',' entries+=CollectionEntry)*
+    '},'
+    'update:''{'
+      entries+=UpdateCollectionEntry (',' entries+=UpdateCollectionEntry)*
+    '}'
+  '}'));
+
+
+UpdateCollectionEntry:
+  valueName=ID ':' (valueString=STRING | valueInt=INT);
+  
+CollectionEntry:
+  valueName=ID ':' (valueString=STRING | valueInt=INT);
+
+Operation:
+  'GET' | 'DELETE' | 'INSERT';
+
+enum FieldType:
+  string = 'String' | number='Number' | boolean='Boolean'| date='Date';

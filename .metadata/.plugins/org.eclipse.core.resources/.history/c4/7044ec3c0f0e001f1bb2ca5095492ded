@@ -1,0 +1,60 @@
+grammar org.xtext.example.mydsl1.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.xtext.org/example/mydsl1/MyDsl"
+
+
+MongoDB:
+	models += Model*;
+	
+	
+Model:
+  connection=ConnectionStatement
+  statements+=OperationStatement*;
+
+OperationStatement:
+  schema=MakeStatement operations+=OtherOperationStatement*;
+
+ConnectionStatement:
+  'DatabaseParameters' '{'
+  'Connection' connectionString=STRING ','&
+	'database' database=STRING
+  '}';
+  
+
+
+MakeStatement:
+  'Collection' name=ID
+  '{'
+    (entries+=DictionaryEntry (',' entries+=DictionaryEntry)*)?
+  '}';
+
+DictionaryEntry:
+  name=ID ':' fieldType=FieldType (status?="required")? (uniqueKey?='unique')?
+  | name=ID ':' 'ref' refDictionary=[MakeStatement | ID];
+
+OtherOperationStatement:
+  'task:'( '{'
+    'operation:' type=Operation ','
+    'collection:' collection=[MakeStatement]
+    'input:' '{'
+      (entries+=TaskDictionaryEntry (',' entries+=TaskDictionaryEntry)*)?
+    '}'
+  '}') | 'task:'( '{'
+    'operation:' type='UPDATE,'
+    'collection:' collection=[MakeStatement]
+    'input:' '{'
+      (entries+=TaskDictionaryEntry (',' entries+=TaskDictionaryEntry)*)?
+    '}'
+    (',' "update:"'{'
+      (entries+=TaskDictionaryEntry (',' entries+=TaskDictionaryEntry)*)?
+    '}')?
+  '}');
+
+TaskDictionaryEntry:
+  valueName=ID ':' (valueString=STRING | valueInt=INT);
+
+Operation:
+  'GET' | 'DELETE' | 'INSERT';
+
+FieldType:
+  'String' | 'Number' | 'Boolean'|'Date';
